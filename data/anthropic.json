@@ -7,14 +7,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -41,14 +35,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -77,14 +65,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -113,14 +95,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -149,14 +125,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -183,14 +153,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -217,13 +181,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -250,14 +209,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -284,14 +237,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -318,14 +265,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -352,13 +293,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -385,13 +321,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "Claude",
       "instruct_type": null
     },

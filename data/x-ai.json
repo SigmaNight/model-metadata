@@ -7,13 +7,8 @@
     "context_length": 256000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -45,12 +40,8 @@
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -83,12 +74,8 @@
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -121,12 +108,8 @@
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -158,12 +141,8 @@
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -195,13 +174,8 @@
     "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -231,12 +205,8 @@
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },
@@ -268,13 +238,8 @@
     "context_length": 8192,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "Grok",
       "instruct_type": null
     },

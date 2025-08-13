@@ -7,14 +7,8 @@
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["file", "image", "text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -40,14 +34,8 @@
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -75,14 +63,8 @@
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -110,14 +92,8 @@
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -145,14 +121,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "file",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "file", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -180,13 +150,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -214,14 +179,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "Other",
       "instruct_type": null
     },
@@ -249,14 +208,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -284,13 +237,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text"],
+      "output_modalities": ["text"],
       "tokenizer": "Other",
       "instruct_type": null
     },
@@ -318,14 +266,8 @@
     "context_length": 1047576,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -360,14 +302,8 @@
     "context_length": 1047576,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -402,14 +338,8 @@
     "context_length": 1047576,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["image", "text", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -443,13 +373,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -475,12 +400,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -504,12 +425,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -533,12 +450,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Other",
       "instruct_type": null
     },
@@ -564,12 +477,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "Other",
       "instruct_type": null
     },
@@ -595,13 +504,8 @@
     "context_length": 200000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -627,14 +531,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -669,12 +567,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -683,10 +577,7 @@
       "max_completion_tokens": 65536,
       "is_moderated": true
     },
-    "supported_parameters": [
-      "max_tokens",
-      "seed"
-    ]
+    "supported_parameters": ["max_tokens", "seed"]
   },
   {
     "id": "o1-mini-2024-09-12",
@@ -696,12 +587,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -710,10 +597,7 @@
       "max_completion_tokens": 65536,
       "is_moderated": true
     },
-    "supported_parameters": [
-      "max_tokens",
-      "seed"
-    ]
+    "supported_parameters": ["max_tokens", "seed"]
   },
   {
     "id": "chatgpt-4o-latest",
@@ -723,13 +607,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -761,14 +640,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -803,14 +676,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -845,14 +712,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -887,14 +748,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -929,14 +784,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -971,14 +820,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image", "file"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1013,13 +856,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1053,12 +891,8 @@
     "context_length": 4095,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1092,12 +926,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1131,12 +961,8 @@
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1170,12 +996,8 @@
     "context_length": 4095,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": "chatml"
     },
@@ -1207,12 +1029,8 @@
     "context_length": 16385,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1246,12 +1064,8 @@
     "context_length": 16385,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1285,12 +1099,8 @@
     "context_length": 8191,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
@@ -1324,12 +1134,8 @@
     "context_length": 8191,
     "architecture": {
       "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
       "tokenizer": "GPT",
       "instruct_type": null
     },
