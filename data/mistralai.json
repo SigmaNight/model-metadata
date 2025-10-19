@@ -5,7 +5,7 @@
       "name": "Mistral Medium 3.1",
       "created": 1755095639,
       "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3.1 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.",
-      "context_length": 262144,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -14,7 +14,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 262144,
+        "context_length": 131072,
         "max_completion_tokens": null,
         "is_moderated": false
       },
@@ -30,7 +30,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "codestral-2508",
@@ -62,7 +65,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "devstral-medium",
@@ -94,7 +100,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "devstral-small",
@@ -129,14 +138,17 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-small-3.2-24b-instruct",
       "name": "Mistral Small 3.2 24B",
       "created": 1750443016,
       "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-      "context_length": 128000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["image", "text"],
@@ -145,14 +157,13 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -165,9 +176,11 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "magistral-small-2506",
@@ -201,7 +214,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "magistral-medium-2506",
@@ -235,7 +251,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "magistral-medium-2506:thinking",
@@ -269,7 +288,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "devstral-small-2505",
@@ -286,7 +308,7 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "supported_parameters": [
@@ -307,7 +329,10 @@
         "top_k",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-medium-3",
@@ -339,14 +364,17 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-small-3.1-24b-instruct",
       "name": "Mistral Small 3.1 24B",
       "created": 1742238937,
       "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-      "context_length": 131072,
+      "context_length": 128000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -355,14 +383,12 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 96000,
+        "context_length": 128000,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -375,9 +401,11 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-saba",
@@ -409,7 +437,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-small-24b-instruct-2501",
@@ -426,13 +457,12 @@
       },
       "top_provider": {
         "context_length": 32768,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -445,9 +475,11 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "codestral-2501",
@@ -479,7 +511,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "pixtral-large-2411",
@@ -511,7 +546,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "ministral-3b",
@@ -541,7 +579,10 @@
         "structured_outputs",
         "temperature",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "ministral-8b",
@@ -573,7 +614,10 @@
         "tool_choice",
         "tools",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "pixtral-12b",
@@ -611,14 +655,17 @@
         "top_k",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-nemo",
       "name": "Mistral Nemo",
       "created": 1721347200,
       "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-      "context_length": 32000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -627,14 +674,13 @@
         "instruct_type": "mistral"
       },
       "top_provider": {
-        "context_length": 32000,
-        "max_completion_tokens": null,
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -649,7 +695,10 @@
         "top_k",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-7b-instruct",
@@ -672,7 +721,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -685,7 +733,10 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-7b-instruct-v0.3",
@@ -708,7 +759,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -721,7 +771,10 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mixtral-8x22b-instruct",
@@ -743,11 +796,8 @@
       },
       "supported_parameters": [
         "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -755,10 +805,45 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
-        "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
+    },
+    {
+      "id": "mistral-7b-instruct-v0.2",
+      "name": "Mistral 7B Instruct v0.2",
+      "created": 1703721600,
+      "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct](/modelsmistralai/mistral-7b-instruct-v0.1), with the following changes:\n\n- 32k context window (vs 8k context in v0.1)\n- Rope-theta = 1e6\n- No Sliding-Window Attention",
+      "context_length": 32768,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["text"],
+        "output_modalities": ["text"],
+        "tokenizer": "Mistral",
+        "instruct_type": "mistral"
+      },
+      "top_provider": {
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mixtral-8x7b-instruct",
@@ -793,7 +878,10 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     },
     {
       "id": "mistral-7b-instruct-v0.1",
@@ -827,7 +915,10 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": 0.3
+      }
     }
   ]
 }

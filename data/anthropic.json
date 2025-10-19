@@ -1,6 +1,76 @@
 {
   "data": [
     {
+      "id": "claude-haiku-4.5",
+      "name": "Claude Haiku 4.5",
+      "created": 1760547638,
+      "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance across reasoning, coding, and computer-use tasks, Haiku 4.5 brings frontier-level capability to real-time and high-volume applications.\n\nIt introduces extended thinking to the Haiku line; enabling controllable reasoning depth, summarized or interleaved thought output, and tool-assisted workflows with full support for coding, bash, web search, and computer-use tools. Scoring >73% on SWE-bench Verified, Haiku 4.5 ranks among the world’s best coding models while maintaining exceptional responsiveness for sub-agents, parallelized execution, and scaled deployment.",
+      "context_length": 200000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 64000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "created": 1759161676,
+      "description": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with improvements across system design, code security, and specification adherence. The model is designed for extended autonomous operation, maintaining task continuity across sessions and providing fact-based progress tracking.\n\nSonnet 4.5 also introduces stronger agentic capabilities, including improved tool orchestration, speculative parallel execution, and more efficient context and memory management. With enhanced context tracking and awareness of token usage across tool calls, it is particularly well-suited for multi-context and long-running workflows. Use cases span software engineering, cybersecurity, financial analysis, research agents, and other domains requiring sustained reasoning and tool use.",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 64000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 1,
+        "frequency_penalty": null
+      }
+    },
+    {
       "id": "claude-opus-4.1",
       "name": "Claude Opus 4.1",
       "created": 1754411591,
@@ -16,7 +86,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 32000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -25,8 +95,15 @@
         "stop",
         "temperature",
         "tool_choice",
-        "tools"
-      ]
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-opus-4",
@@ -44,7 +121,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 32000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -56,14 +133,19 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-sonnet-4",
       "name": "Claude Sonnet 4",
       "created": 1747930371,
       "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-      "context_length": 200000,
+      "context_length": 1000000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["image", "text", "file"],
@@ -72,7 +154,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
+        "context_length": 1000000,
         "max_completion_tokens": 64000,
         "is_moderated": false
       },
@@ -86,7 +168,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.7-sonnet",
@@ -116,7 +199,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.7-sonnet:thinking",
@@ -144,7 +228,8 @@
         "temperature",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.5-haiku",
@@ -172,7 +257,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.5-haiku-20241022",
@@ -200,7 +286,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.5-sonnet",
@@ -228,7 +315,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3.5-sonnet-20240620",
@@ -256,7 +344,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3-haiku",
@@ -284,7 +373,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "claude-3-opus",
@@ -312,7 +402,8 @@
         "tools",
         "top_k",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     }
   ]
 }

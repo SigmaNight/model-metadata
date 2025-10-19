@@ -1,14 +1,182 @@
 {
   "data": [
     {
-      "id": "gpt-5-chat-latest",
-      "name": "GPT-5 Chat",
-      "created": 1754587837,
-      "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
+      "id": "gpt-5-image-mini",
+      "name": "GPT-5 Image Mini",
+      "created": 1760624583,
+      "description": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model features superior instruction following, text rendering, and detailed image editing with reduced latency and cost. It excels at high-quality visual creation while maintaining strong text understanding, making it ideal for applications that require both efficient image generation and text processing at scale.",
       "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text+image",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["image", "text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5-image",
+      "name": "GPT-5 Image",
+      "created": 1760447986,
+      "description": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's most advanced language model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while incorporating GPT Image 1's superior instruction following, text rendering, and detailed image editing.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text+image",
+        "input_modalities": ["image", "text", "file"],
+        "output_modalities": ["image", "text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "o3-deep-research",
+      "name": "o3 Deep Research",
+      "created": 1760129661,
+      "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
+      "context_length": 200000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "o4-mini-deep-research",
+      "name": "o4 Mini Deep Research",
+      "created": 1760129642,
+      "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
+      "context_length": 200000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5-pro",
+      "name": "GPT-5 Pro",
+      "created": 1759776663,
+      "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "GPT",
         "instruct_type": null
@@ -24,8 +192,111 @@
         "reasoning",
         "response_format",
         "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5-codex",
+      "name": "GPT-5 Codex",
+      "created": 1758643403,
+      "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks. The model supports building projects from scratch, feature development, debugging, large-scale refactoring, and code review. Compared to GPT-5, Codex is more steerable, adheres closely to developer instructions, and produces cleaner, higher-quality code outputs. Reasoning effort can be adjusted with the `reasoning.effort` parameter. Read the [docs here](https://openrouter.ai/docs/use-cases/reasoning-tokens#reasoning-effort-level)\n\nCodex integrates into developer environments including the CLI, IDE extensions, GitHub, and cloud tasks. It adapts reasoning effort dynamically—providing fast responses for small tasks while sustaining extended multi-hour runs for large projects. The model is trained to perform structured code reviews, catching critical flaws by reasoning over dependencies and validating behavior against tests. It also supports multimodal inputs such as images or screenshots for UI development and integrates tool use for search, dependency installation, and environment setup. Codex is intended specifically for agentic coding applications.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-4o-audio-preview",
+      "name": "GPT-4o Audio",
+      "created": 1755233061,
+      "description": "The gpt-4o-audio-preview model adds support for audio inputs as prompts. This enhancement allows the model to detect nuances within audio recordings and add depth to generated user experiences. Audio outputs are currently not supported. Audio tokens are priced at $40 per million input audio tokens.",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["audio", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {}
+    },
+    {
+      "id": "gpt-5-chat-latest",
+      "name": "GPT-5 Chat",
+      "created": 1754587837,
+      "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
         "structured_outputs"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-5",
@@ -54,7 +325,12 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "gpt-5-mini",
@@ -83,7 +359,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-5-nano",
@@ -112,7 +389,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o3-pro",
@@ -141,7 +419,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "codex-mini",
@@ -170,7 +449,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o4-mini-high",
@@ -199,7 +479,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o3",
@@ -228,7 +509,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o4-mini",
@@ -238,9 +520,9 @@
       "context_length": 200000,
       "architecture": {
         "modality": "text+image->text",
-        "input_modalities": ["image", "text"],
+        "input_modalities": ["image", "text", "file"],
         "output_modalities": ["text"],
-        "tokenizer": "Other",
+        "tokenizer": "GPT",
         "instruct_type": null
       },
       "top_provider": {
@@ -257,7 +539,8 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4.1",
@@ -293,7 +576,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4.1-mini",
@@ -329,7 +613,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4.1-nano",
@@ -364,7 +649,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o1-pro",
@@ -374,7 +660,7 @@
       "context_length": 200000,
       "architecture": {
         "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "GPT",
         "instruct_type": null
@@ -391,7 +677,8 @@
         "response_format",
         "seed",
         "structured_outputs"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-mini-search-preview",
@@ -416,7 +703,8 @@
         "response_format",
         "structured_outputs",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-search-preview",
@@ -441,7 +729,8 @@
         "response_format",
         "structured_outputs",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o3-mini-high",
@@ -451,61 +740,7 @@
       "context_length": 200000,
       "architecture": {
         "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools"
-      ]
-    },
-    {
-      "id": "o3-mini",
-      "name": "o3 Mini",
-      "created": 1738351721,
-      "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.\n\nThis model supports the `reasoning_effort` parameter, which can be set to \"high\", \"medium\", or \"low\" to control the thinking time of the model. The default is \"medium\". OpenRouter also offers the model slug `openai/o3-mini-high` to default the parameter to \"high\".\n\nThe model features three adjustable reasoning effort levels and supports key developer capabilities including function calling, structured outputs, and streaming, though it does not include vision processing capabilities.\n\nThe model demonstrates significant improvements over its predecessor, with expert testers preferring its responses 56% of the time and noting a 39% reduction in major errors on complex questions. With medium reasoning effort settings, o3-mini matches the performance of the larger o1 model on challenging reasoning evaluations like AIME and GPQA, while maintaining lower latency and cost.",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools"
-      ]
-    },
-    {
-      "id": "o1",
-      "name": "o1",
-      "created": 1734459999,
-      "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason using chain of thought. \n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "GPT",
         "instruct_type": null
@@ -522,7 +757,64 @@
         "structured_outputs",
         "tool_choice",
         "tools"
-      ]
+      ],
+      "default_parameters": {}
+    },
+    {
+      "id": "o3-mini",
+      "name": "o3 Mini",
+      "created": 1738351721,
+      "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.\n\nThis model supports the `reasoning_effort` parameter, which can be set to \"high\", \"medium\", or \"low\" to control the thinking time of the model. The default is \"medium\". OpenRouter also offers the model slug `openai/o3-mini-high` to default the parameter to \"high\".\n\nThe model features three adjustable reasoning effort levels and supports key developer capabilities including function calling, structured outputs, and streaming, though it does not include vision processing capabilities.\n\nThe model demonstrates significant improvements over its predecessor, with expert testers preferring its responses 56% of the time and noting a 39% reduction in major errors on complex questions. With medium reasoning effort settings, o3-mini matches the performance of the larger o1 model on challenging reasoning evaluations like AIME and GPQA, while maintaining lower latency and cost.",
+      "context_length": 200000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["text", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {}
+    },
+    {
+      "id": "o1",
+      "name": "o1",
+      "created": 1734459999,
+      "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason using chain of thought. \n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).",
+      "context_length": 200000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -558,7 +850,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "o1-mini",
@@ -578,7 +871,8 @@
         "max_completion_tokens": 65536,
         "is_moderated": true
       },
-      "supported_parameters": ["max_tokens", "seed"]
+      "supported_parameters": ["max_tokens", "seed"],
+      "default_parameters": {}
     },
     {
       "id": "o1-mini-2024-09-12",
@@ -598,7 +892,8 @@
         "max_completion_tokens": 65536,
         "is_moderated": true
       },
-      "supported_parameters": ["max_tokens", "seed"]
+      "supported_parameters": ["max_tokens", "seed"],
+      "default_parameters": {}
     },
     {
       "id": "chatgpt-4o-latest",
@@ -631,7 +926,8 @@
         "temperature",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -667,7 +963,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-mini",
@@ -703,7 +1000,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-mini-2024-07-18",
@@ -739,7 +1037,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o",
@@ -775,7 +1074,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -811,7 +1111,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4o:extended",
@@ -847,7 +1148,8 @@
         "top_logprobs",
         "top_p",
         "web_search_options"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4-turbo",
@@ -882,7 +1184,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-3.5-turbo-0613",
@@ -917,7 +1220,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4-turbo-preview",
@@ -952,7 +1256,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4-1106-preview",
@@ -987,7 +1292,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-3.5-turbo-instruct",
@@ -1020,7 +1326,8 @@
         "temperature",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-3.5-turbo-16k",
@@ -1055,7 +1362,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-3.5-turbo",
@@ -1090,7 +1398,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4",
@@ -1125,7 +1434,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     },
     {
       "id": "gpt-4-0314",
@@ -1160,7 +1470,8 @@
         "tools",
         "top_logprobs",
         "top_p"
-      ]
+      ],
+      "default_parameters": {}
     }
   ]
 }
