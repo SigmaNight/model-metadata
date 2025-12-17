@@ -1,6 +1,43 @@
 {
   "data": [
     {
+      "id": "claude-opus-4.5",
+      "name": "Claude Opus 4.5",
+      "created": 1764010580,
+      "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and reasoning benchmarks, and improved robustness to prompt injection. The model is designed to operate efficiently across varied effort levels, enabling developers to trade off speed, depth, and token usage depending on task requirements. It comes with a new parameter to control token efficiency, which can be accessed using the OpenRouter Verbosity parameter with low, medium, or high.\n\nOpus 4.5 supports advanced tool use, extended context management, and coordinated multi-agent setups, making it well-suited for autonomous research, debugging, multi-step planning, and spreadsheet/browser manipulation. It delivers substantial gains in structured reasoning, execution reliability, and alignment compared to prior Opus generations, while reducing token overhead and improving performance on long-running tasks.",
+      "context_length": 200000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
+        "max_completion_tokens": 32000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "verbosity"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
       "id": "claude-haiku-4.5",
       "name": "Claude Haiku 4.5",
       "created": 1760547638,
@@ -57,7 +94,9 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "response_format",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -92,7 +131,9 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "response_format",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -169,7 +210,11 @@
         "top_k",
         "top_p"
       ],
-      "default_parameters": {}
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-3.7-sonnet",
@@ -200,7 +245,11 @@
         "top_k",
         "top_p"
       ],
-      "default_parameters": {}
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-3.7-sonnet:thinking",
@@ -227,9 +276,14 @@
         "stop",
         "temperature",
         "tool_choice",
-        "tools"
+        "tools",
+        "top_p"
       ],
-      "default_parameters": {}
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-3.5-haiku",
@@ -258,7 +312,11 @@
         "top_k",
         "top_p"
       ],
-      "default_parameters": {}
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
     },
     {
       "id": "claude-3.5-haiku-20241022",
@@ -294,35 +352,6 @@
       "name": "Claude 3.5 Sonnet",
       "created": 1729555200,
       "description": "New Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:\n\n- Coding: Scores ~49% on SWE-Bench Verified, higher than the last best score, and without any fancy prompt scaffolding\n- Data science: Augments human data science expertise; navigates unstructured data while using multiple tools for insights\n- Visual processing: excelling at interpreting charts, graphs, and images, accurately transcribing text to derive insights beyond just the text alone\n- Agentic tasks: exceptional tool use, making it great at agentic tasks (i.e. complex, multi-step problem solving tasks that require engaging with other systems)\n\n#multimodal",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 8192,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {}
-    },
-    {
-      "id": "claude-3.5-sonnet-20240620",
-      "name": "Claude 3.5 Sonnet (2024-06-20)",
-      "created": 1718841600,
-      "description": "Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:\n\n- Coding: Autonomously writes, edits, and runs code with reasoning and troubleshooting\n- Data science: Augments human data science expertise; navigates unstructured data while using multiple tools for insights\n- Visual processing: excelling at interpreting charts, graphs, and images, accurately transcribing text to derive insights beyond just the text alone\n- Agentic tasks: exceptional tool use, making it great at agentic tasks (i.e. complex, multi-step problem solving tasks that require engaging with other systems)\n\nFor the latest version (2024-10-23), check out [Claude 3.5 Sonnet](/anthropic/claude-3.5-sonnet).\n\n#multimodal",
       "context_length": 200000,
       "architecture": {
         "modality": "text+image->text",

@@ -1,6 +1,274 @@
 {
   "data": [
     {
+      "id": "gpt-5.2-chat",
+      "name": "GPT-5.2 Chat",
+      "created": 1765389783,
+      "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on harder queries, improving accuracy on math, coding, and multi-step tasks without slowing down typical conversations. The model is warmer and more conversational by default, with better instruction following and more stable short-form reasoning. GPT-5.2 Chat is designed for high-throughput, interactive workloads where responsiveness and consistency matter more than deep deliberation.",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.2-pro",
+      "name": "GPT-5.2 Pro",
+      "created": 1765389780,
+      "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.2",
+      "name": "GPT-5.2",
+      "created": 1765389775,
+      "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly to simple queries while spending more depth on complex tasks.\n\nBuilt for broad task coverage, GPT-5.2 delivers consistent gains across math, coding, sciende, and tool calling workloads, with more coherent long-form answers and improved tool-use reliability.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.1-codex-max",
+      "name": "GPT-5.1-Codex-Max",
+      "created": 1764878934,
+      "description": "GPT-5.1-Codex-Max is OpenAI’s latest agentic coding model, designed for long-running, high-context software development tasks. It is based on an updated version of the 5.1 reasoning stack and trained on agentic workflows spanning software engineering, mathematics, and research. \nGPT-5.1-Codex-Max delivers faster performance, improved reasoning, and higher token efficiency across the development lifecycle.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "GPT-5.1",
+      "created": 1763060305,
+      "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning to allocate computation dynamically, responding quickly to simple queries while spending more depth on complex tasks. The model produces clearer, more grounded explanations with reduced jargon, making it easier to follow even on technical or multi-step problems.\n\nBuilt for broad task coverage, GPT-5.1 delivers consistent gains across math, coding, and structured analysis workloads, with more coherent long-form answers and improved tool-use reliability. It also features refined conversational alignment, enabling warmer, more intuitive responses without compromising precision. GPT-5.1 serves as the primary full-capability successor to GPT-5",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.1-chat",
+      "name": "GPT-5.1 Chat",
+      "created": 1763060302,
+      "description": "GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on harder queries, improving accuracy on math, coding, and multi-step tasks without slowing down typical conversations. The model is warmer and more conversational by default, with better instruction following and more stable short-form reasoning. GPT-5.1 Chat is designed for high-throughput, interactive workloads where responsiveness and consistency matter more than deep deliberation.",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "name": "GPT-5.1-Codex",
+      "created": 1763060298,
+      "description": "GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks. The model supports building projects from scratch, feature development, debugging, large-scale refactoring, and code review. Compared to GPT-5.1, Codex is more steerable, adheres closely to developer instructions, and produces cleaner, higher-quality code outputs. Reasoning effort can be adjusted with the `reasoning.effort` parameter. Read the [docs here](https://openrouter.ai/docs/use-cases/reasoning-tokens#reasoning-effort-level)\n\nCodex integrates into developer environments including the CLI, IDE extensions, GitHub, and cloud tasks. It adapts reasoning effort dynamically—providing fast responses for small tasks while sustaining extended multi-hour runs for large projects. The model is trained to perform structured code reviews, catching critical flaws by reasoning over dependencies and validating behavior against tests. It also supports multimodal inputs such as images or screenshots for UI development and integrates tool use for search, dependency installation, and environment setup. Codex is intended specifically for agentic coding applications.",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
+      "id": "gpt-5.1-codex-mini",
+      "name": "GPT-5.1-Codex-Mini",
+      "created": 1763057820,
+      "description": "GPT-5.1-Codex-Mini is a smaller and faster version of GPT-5.1-Codex",
+      "context_length": 400000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 100000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      }
+    },
+    {
       "id": "gpt-5-image-mini",
       "name": "GPT-5 Image Mini",
       "created": 1760624583,
@@ -46,7 +314,7 @@
       "id": "gpt-5-image",
       "name": "GPT-5 Image",
       "created": 1760447986,
-      "description": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's most advanced language model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while incorporating GPT Image 1's superior instruction following, text rendering, and detailed image editing.",
+      "description": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's GPT-5 model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while incorporating GPT Image 1's superior instruction following, text rendering, and detailed image editing.",
       "context_length": 400000,
       "architecture": {
         "modality": "text+image->text+image",
@@ -561,21 +829,12 @@
         "is_moderated": true
       },
       "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "presence_penalty",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
-        "temperature",
         "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
+        "tools"
       ],
       "default_parameters": {}
     },
@@ -598,21 +857,12 @@
         "is_moderated": true
       },
       "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "presence_penalty",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
-        "temperature",
         "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
+        "tools"
       ],
       "default_parameters": {}
     },
@@ -635,20 +885,12 @@
         "is_moderated": true
       },
       "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "presence_penalty",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
-        "temperature",
         "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
+        "tools"
       ],
       "default_parameters": {}
     },
@@ -851,48 +1093,6 @@
         "top_p",
         "web_search_options"
       ],
-      "default_parameters": {}
-    },
-    {
-      "id": "o1-mini",
-      "name": "o1-mini",
-      "created": 1726099200,
-      "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.\n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 65536,
-        "is_moderated": true
-      },
-      "supported_parameters": ["max_tokens", "seed"],
-      "default_parameters": {}
-    },
-    {
-      "id": "o1-mini-2024-09-12",
-      "name": "o1-mini (2024-09-12)",
-      "created": 1726099200,
-      "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.\n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 65536,
-        "is_moderated": true
-      },
-      "supported_parameters": ["max_tokens", "seed"],
       "default_parameters": {}
     },
     {
