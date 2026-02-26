@@ -23,7 +23,8 @@
         "temperature": 0.3,
         "top_p": 0.95,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "devstral-2512",
@@ -40,14 +41,13 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "max_tokens",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -55,14 +55,14 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p"
       ],
       "default_parameters": {
         "temperature": 0.3,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "ministral-14b-2512",
@@ -84,11 +84,8 @@
       },
       "supported_parameters": [
         "frequency_penalty",
-        "logit_bias",
         "max_tokens",
-        "min_p",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -96,14 +93,14 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p"
       ],
       "default_parameters": {
         "temperature": 0.3,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "ministral-8b-2512",
@@ -140,7 +137,8 @@
         "temperature": 0.3,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "ministral-3b-2512",
@@ -177,7 +175,8 @@
         "temperature": 0.3,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-large-2512",
@@ -214,7 +213,8 @@
         "temperature": 0.0645,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "voxtral-small-24b-2507",
@@ -223,7 +223,7 @@
       "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio is priced at $100 per million seconds.",
       "context_length": 32000,
       "architecture": {
-        "modality": "text->text",
+        "modality": "text+audio->text",
         "input_modalities": ["text", "audio"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
@@ -251,7 +251,8 @@
         "temperature": 0.2,
         "top_p": 0.95,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-medium-3.1",
@@ -286,7 +287,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "codestral-2508",
@@ -321,7 +323,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "devstral-medium",
@@ -356,14 +359,15 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "devstral-small",
       "name": "Devstral Small 1.1",
       "created": 1752160751,
       "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.\n\nDesigned for agentic coding workflows, Devstral Small 1.1 is optimized for tasks such as codebase exploration, multi-file edits, and integration into autonomous development agents like OpenHands and Cline. It achieves 53.6% on SWE-Bench Verified, surpassing all other open models on this benchmark, while remaining lightweight enough to run on a single 4090 GPU or Apple silicon machine. The model uses a Tekken tokenizer with a 131k vocabulary and is deployable via vLLM, Transformers, Ollama, LM Studio, and other OpenAI-compatible runtimes.",
-      "context_length": 128000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -372,16 +376,14 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 128000,
+        "context_length": 131072,
         "max_completion_tokens": null,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "max_tokens",
-        "min_p",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -389,12 +391,12 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p"
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-small-3.2-24b-instruct",
@@ -433,42 +435,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
-    },
-    {
-      "id": "devstral-small-2505",
-      "name": "Devstral Small 2505",
-      "created": 1747837379,
-      "description": "Devstral-Small-2505 is a 24B parameter agentic LLM fine-tuned from Mistral-Small-3.1, jointly developed by Mistral AI and All Hands AI for advanced software engineering tasks. It is optimized for codebase exploration, multi-file editing, and integration into coding agents, achieving state-of-the-art results on SWE-Bench Verified (46.8%).\n\nDevstral supports a 128k context window and uses a custom Tekken tokenizer. It is text-only, with the vision encoder removed, and is suitable for local deployment on high-end consumer hardware (e.g., RTX 4090, 32GB RAM Macs). Devstral is best used in agentic workflows via the OpenHands scaffold and is compatible with inference frameworks like vLLM, Transformers, and Ollama. It is released under the Apache 2.0 license.",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
       },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      }
+      "expiration_date": null
     },
     {
       "id": "mistral-medium-3",
@@ -503,14 +471,15 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-small-3.1-24b-instruct",
       "name": "Mistral Small 3.1 24B",
       "created": 1742238937,
       "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-      "context_length": 131072,
+      "context_length": 128000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -519,8 +488,8 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 131072,
+        "context_length": 128000,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "supported_parameters": [
@@ -528,19 +497,15 @@
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
-        "response_format",
         "seed",
-        "stop",
-        "structured_outputs",
         "temperature",
-        "tool_choice",
-        "tools",
         "top_k",
         "top_p"
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-saba",
@@ -575,7 +540,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-small-24b-instruct-2501",
@@ -592,7 +558,7 @@
       },
       "top_provider": {
         "context_length": 32768,
-        "max_completion_tokens": 32768,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "supported_parameters": [
@@ -605,7 +571,6 @@
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -616,7 +581,8 @@
         "temperature": 0.3,
         "top_p": null,
         "frequency_penalty": null
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "pixtral-large-2411",
@@ -651,116 +617,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
-    },
-    {
-      "id": "ministral-3b",
-      "name": "Ministral 3B",
-      "created": 1729123200,
-      "description": "Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
       },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      }
-    },
-    {
-      "id": "ministral-8b",
-      "name": "Ministral 8B",
-      "created": 1729123200,
-      "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      }
-    },
-    {
-      "id": "pixtral-12b",
-      "name": "Pixtral 12B",
-      "created": 1725926400,
-      "description": "The first multi-modal, text+image-to-text model from Mistral AI. Its weights were launched via torrent: https://x.com/mistralai/status/1833758285167722836.",
-      "context_length": 32768,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      }
+      "expiration_date": null
     },
     {
       "id": "mistral-nemo",
@@ -798,7 +656,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-7b-instruct",
@@ -815,7 +674,7 @@
       },
       "top_provider": {
         "context_length": 32768,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 4096,
         "is_moderated": false
       },
       "supported_parameters": [
@@ -825,18 +684,15 @@
         "min_p",
         "presence_penalty",
         "repetition_penalty",
-        "response_format",
-        "seed",
         "stop",
         "temperature",
-        "tool_choice",
-        "tools",
         "top_k",
         "top_p"
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-7b-instruct-v0.3",
@@ -870,7 +726,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mixtral-8x22b-instruct",
@@ -905,41 +762,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
-    },
-    {
-      "id": "mistral-7b-instruct-v0.2",
-      "name": "Mistral 7B Instruct v0.2",
-      "created": 1703721600,
-      "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct](/modelsmistralai/mistral-7b-instruct-v0.1), with the following changes:\n\n- 32k context window (vs 8k context in v0.1)\n- Rope-theta = 1e6\n- No Sliding-Window Attention",
-      "context_length": 32768,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": "mistral"
       },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      }
+      "expiration_date": null
     },
     {
       "id": "mixtral-8x7b-instruct",
@@ -977,7 +801,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     },
     {
       "id": "mistral-7b-instruct-v0.1",
@@ -1009,7 +834,8 @@
       ],
       "default_parameters": {
         "temperature": 0.3
-      }
+      },
+      "expiration_date": null
     }
   ]
 }
