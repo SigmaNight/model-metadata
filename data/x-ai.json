@@ -1,10 +1,10 @@
 {
   "data": [
     {
-      "id": "grok-4.1-fast",
+      "id": "grok-4-1-fast-reasoning",
       "name": "Grok 4.1 Fast",
       "created": 1763587502,
-      "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+      "description": "Grok 4.1 Fast is xAI's best agentic tool calling model for real-world use cases like customer support and deep research. Features a 2M token context window with reasoning capabilities.",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image->text",
@@ -40,10 +40,47 @@
       "expiration_date": null
     },
     {
-      "id": "grok-4-fast",
+      "id": "grok-4-1-fast-non-reasoning",
+      "name": "Grok 4.1 Fast (Non-Reasoning)",
+      "created": 1763587502,
+      "description": "Grok 4.1 Fast non-reasoning variant optimized for lower latency. Same 2M context window without reasoning tokens.",
+      "context_length": 2000000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 2000000,
+        "max_completion_tokens": 30000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "logprobs",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "frequency_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
+      "id": "grok-4-fast-reasoning",
       "name": "Grok 4 Fast",
       "created": 1758240090,
-      "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast).\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+      "description": "Grok 4 Fast is xAI's multimodal model with cost-efficiency and a 2M token context window. Available in reasoning and non-reasoning variants (grok-4-fast-reasoning, grok-4-fast-non-reasoning).",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image->text",
@@ -62,6 +99,43 @@
         "logprobs",
         "max_tokens",
         "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "name": "Grok 4 Fast (Non-Reasoning)",
+      "created": 1758240090,
+      "description": "Grok 4 Fast non-reasoning variant for lower latency. 2M context window.",
+      "context_length": 2000000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 2000000,
+        "max_completion_tokens": 30000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "logprobs",
+        "max_tokens",
         "response_format",
         "seed",
         "structured_outputs",
@@ -115,10 +189,10 @@
       "expiration_date": null
     },
     {
-      "id": "grok-4",
+      "id": "grok-4-0709",
       "name": "Grok 4",
       "created": 1752087689,
-      "description": "Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens. See more details on the [xAI docs](https://docs.x.ai/docs/models/grok-4-0709)",
+      "description": "Grok 4 (grok-4-0709) is xAI's reasoning model with a 256k context window. Supports parallel tool calling, structured outputs, and image and text inputs. Pricing increases for requests over 128k tokens.",
       "context_length": 256000,
       "architecture": {
         "modality": "text+image->text",

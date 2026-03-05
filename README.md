@@ -47,7 +47,7 @@ Each JSON file in the data/ directory contains a list of model objects with the 
 - id: Unique model identifier (e.g., gpt-4-turbo)
 - name: Human-readable model name
 - description: Summary of model capabilities and use cases
-- created: Unix timestamp of model release
+- created: Unix timestamp of model release (used for sorting by release date; models with `-latest` in the id are listed first)
 - context_length: Maximum input context length (in tokens)
 
 ### architecture
@@ -78,6 +78,19 @@ A list of tunable parameters supported by the model, such as:
 - response_format
 - structured_outputs
 
+## Data Sources
+
+Metadata is curated from official provider documentation and APIs. Official model listings:
+
+- **OpenAI**: [Models](https://platform.openai.com/docs/models) · [API Reference](https://platform.openai.com/docs/api-reference/models/list)
+- **Anthropic**: [Models Overview](https://docs.anthropic.com/en/docs/models-overview) · [API Models](https://docs.anthropic.com/en/api/getting-started/models)
+- **Mistral AI**: [Models](https://docs.mistral.ai/getting-started/models) · [Model Comparison](https://docs.mistral.ai/getting-started/models/compare)
+- **xAI**: [Models and Pricing](https://docs.x.ai/docs/models) · [Release Notes](https://docs.x.ai/docs/release-notes)
+- **Google**: [Gemini API Models](https://ai.google.dev/api/models) · [Vertex AI Models](https://cloud.google.com/vertex-ai/generative-ai/docs/model-garden/overview)
+- **DeepSeek**: [API Documentation](https://platform.deepseek.com/api-docs) · [Model List](https://platform.deepseek.com/api-docs/api/list-models/)
+
+Data may also be synchronized from [OpenRouter API](https://openrouter.ai/api/v1/models) which aggregates models from multiple providers.
+
 ## Contributing
 
 Contributions are welcome! To add or update metadata for a model:
@@ -86,4 +99,6 @@ Contributions are welcome! To add or update metadata for a model:
 2. Add or edit the appropriate JSON file in the data/ directory
 3. Submit a pull request
 
-Please ensure your JSON is valid and follows the schema outlined above.
+Please ensure your JSON is valid and follows the schema outlined above. Prefer official provider documentation when updating model IDs, descriptions, or parameters.
+
+Models are sorted with `*-latest` aliases first, then by release date (newest first). Run `python sort_models.py` after editing to maintain sort order.
