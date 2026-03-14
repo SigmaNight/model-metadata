@@ -15,7 +15,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 64000,
         "is_moderated": true
       },
       "supported_parameters": [
@@ -57,7 +57,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 128000,
         "is_moderated": true
       },
       "supported_parameters": [
@@ -172,7 +172,7 @@
       },
       "top_provider": {
         "context_length": 204800,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 64000,
         "is_moderated": true
       },
       "supported_parameters": [
@@ -210,7 +210,7 @@
       },
       "top_provider": {
         "context_length": 204800,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 64000,
         "is_moderated": true
       },
       "supported_parameters": [

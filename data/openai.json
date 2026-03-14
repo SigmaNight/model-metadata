@@ -1657,11 +1657,11 @@
       "expiration_date": null
     },
     {
-      "id": "gpt-3.5-turbo",
-      "name": "GPT-3.5 Turbo",
+      "id": "gpt-4",
+      "name": "GPT-4",
       "created": 1685232000,
-      "description": "Provided by OpenRouter: GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-      "context_length": 16385,
+      "description": "Provided by OpenRouter: OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
+      "context_length": 8191,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -1670,7 +1670,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 16385,
+        "context_length": 8191,
         "max_completion_tokens": 4096,
         "is_moderated": true
       },
@@ -1694,11 +1694,11 @@
       "expiration_date": null
     },
     {
-      "id": "gpt-4",
-      "name": "GPT-4",
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
       "created": 1685232000,
-      "description": "Provided by OpenRouter: OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
-      "context_length": 8191,
+      "description": "Provided by OpenRouter: GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+      "context_length": 16385,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -1707,7 +1707,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 8191,
+        "context_length": 16385,
         "max_completion_tokens": 4096,
         "is_moderated": true
       },
