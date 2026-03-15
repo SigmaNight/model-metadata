@@ -24,7 +24,16 @@
         "top_p": 0.95,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "devstral-2512",
@@ -62,7 +71,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000009",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "ministral-14b-2512",
@@ -103,7 +121,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.00000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "ministral-8b-2512",
@@ -144,7 +171,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.00000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "ministral-3b-2512",
@@ -185,7 +221,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-large-2512",
@@ -223,7 +268,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "voxtral-small-24b-2507",
@@ -261,7 +315,16 @@
         "top_p": 0.95,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-medium-3.1",
@@ -297,7 +360,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "codestral-2508",
@@ -333,7 +405,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000009",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "devstral-medium",
@@ -369,7 +450,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "devstral-small",
@@ -405,7 +495,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-small-3.2-24b-instruct",
@@ -445,7 +544,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-medium-3",
@@ -481,7 +589,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-small-3.1-24b-instruct",
@@ -514,7 +631,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-saba",
@@ -550,7 +676,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-small-24b-instruct-2501",
@@ -591,7 +726,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-large-2411",
@@ -627,7 +771,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-large-2407",
@@ -663,7 +816,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "pixtral-large-2411",
@@ -699,7 +861,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-nemo",
@@ -738,7 +909,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000002",
+        "completion": "0.00000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mixtral-8x22b-instruct",
@@ -774,7 +954,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.0000012",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-large",
@@ -810,7 +999,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mixtral-8x7b-instruct",
@@ -849,7 +1047,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000024",
+        "completion": "0.00000024",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "mistral-7b-instruct-v0.1",
@@ -882,7 +1089,16 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000005",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     }
   ]
 }

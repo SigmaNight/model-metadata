@@ -39,7 +39,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.0000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000025",
+        "input_cache_write": "0",
+        "audio": "0.0000005"
+      }
     },
     {
       "id": "gemini-3.1-flash-image-preview",
@@ -78,7 +87,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "image": "0.00006",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-3.1-pro-preview-customtools",
@@ -116,7 +134,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000012",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-3.1-pro-preview",
@@ -154,7 +181,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000012",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-3-flash-preview",
@@ -192,7 +228,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0",
+        "audio": "0.000001"
+      }
     },
     {
       "id": "gemini-3-pro-image-preview",
@@ -228,7 +273,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000012",
+        "image": "0.00012",
+        "request": "0",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-2.5-flash-image",
@@ -262,7 +316,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000025",
+        "image": "0.00003",
+        "request": "0",
+        "input_cache_read": "0.00000003",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -300,7 +363,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0",
+        "audio": "0.0000003"
+      }
     },
     {
       "id": "gemini-2.5-flash-lite",
@@ -338,7 +410,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0",
+        "audio": "0.0000003"
+      }
     },
     {
       "id": "gemini-2.5-flash",
@@ -376,7 +457,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000025",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000003",
+        "input_cache_write": "0",
+        "audio": "0.000001"
+      }
     },
     {
       "id": "gemini-2.5-pro",
@@ -414,7 +504,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-2.5-pro-preview",
@@ -448,7 +547,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemma-3n-e4b-it",
@@ -481,7 +589,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemini-2.5-pro-preview-05-06",
@@ -519,7 +636,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemma-3-4b-it",
@@ -553,7 +679,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemma-3-12b-it",
@@ -589,7 +724,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gemma-3-27b-it",
@@ -631,7 +775,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     }
   ]
 }

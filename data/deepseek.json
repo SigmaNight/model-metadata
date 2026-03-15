@@ -34,7 +34,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000027",
+        "completion": "0.0000011",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000007",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "deepseek-reasoner",
@@ -56,7 +65,16 @@
       },
       "supported_parameters": [],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000055",
+        "completion": "0.00000219",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000014",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     }
   ]
 }

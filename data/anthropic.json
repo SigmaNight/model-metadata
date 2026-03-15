@@ -40,7 +40,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-6",
@@ -79,7 +88,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-5-20251101",
@@ -117,7 +135,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-5",
@@ -155,7 +182,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-haiku-4-5-20251001",
@@ -193,7 +229,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-haiku-4-5",
@@ -231,7 +276,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-sonnet-4-5-20250929",
@@ -272,7 +326,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-sonnet-4-5",
@@ -313,7 +376,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-1-20250805",
@@ -351,7 +423,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000015",
+        "input_cache_write": "0.00001875",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-1",
@@ -389,7 +470,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000015",
+        "input_cache_write": "0.00001875",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4-20250514",
@@ -425,7 +515,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000015",
+        "input_cache_write": "0.00001875",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-opus-4",
@@ -461,7 +560,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000015",
+        "input_cache_write": "0.00001875",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-sonnet-4-20250514",
@@ -497,7 +605,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "audio": "0"
+      }
     },
     {
       "id": "claude-sonnet-4",
@@ -533,7 +650,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "audio": "0"
+      }
     }
   ]
 }

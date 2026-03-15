@@ -42,7 +42,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.4",
@@ -86,7 +95,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.3-chat",
@@ -128,7 +146,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000175",
+        "completion": "0.000014",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000175",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.3-codex",
@@ -166,7 +193,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-audio",
@@ -205,7 +241,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000032",
+        "completion": "0.000064",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0.000032"
+      }
     },
     {
       "id": "gpt-audio-mini",
@@ -244,7 +289,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000006",
+        "completion": "0.0000024",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0.0000006"
+      }
     },
     {
       "id": "gpt-5.2-codex",
@@ -279,7 +333,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.2-chat",
@@ -312,7 +375,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.2-pro",
@@ -347,7 +419,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.2",
@@ -385,7 +466,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.1-codex-max",
@@ -423,7 +513,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.1",
@@ -461,7 +560,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.1-chat",
@@ -494,7 +602,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.1-codex",
@@ -532,7 +649,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5.1-codex-mini",
@@ -570,7 +696,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-image-mini",
@@ -613,7 +748,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000008",
+        "image": "0.0000025",
+        "request": "0",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-image",
@@ -656,7 +800,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00001",
+        "image": "0.000008",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o3-deep-research",
@@ -699,7 +852,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000008",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o4-mini-deep-research",
@@ -742,7 +904,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000275",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-pro",
@@ -777,7 +948,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-codex",
@@ -812,7 +992,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-chat",
@@ -839,7 +1028,16 @@
         "structured_outputs"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5",
@@ -877,7 +1075,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-mini",
@@ -915,7 +1122,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.000002",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000025",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-5-nano",
@@ -953,7 +1169,16 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.000002",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000025",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o3-pro",
@@ -988,7 +1213,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00002",
+        "completion": "0.00008",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000005",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o4-mini-high",
@@ -1023,7 +1257,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000275",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o3",
@@ -1054,7 +1297,16 @@
         "tools"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000008",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o4-mini",
@@ -1085,7 +1337,16 @@
         "tools"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000275",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4.1",
@@ -1116,7 +1377,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000008",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4.1-mini",
@@ -1147,7 +1417,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.0000016",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4.1-nano",
@@ -1178,7 +1457,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000025",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o1-pro",
@@ -1207,7 +1495,16 @@
         "structured_outputs"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00015",
+        "completion": "0.0006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000375",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-mini-search-preview",
@@ -1234,7 +1531,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000075",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-search-preview",
@@ -1261,7 +1567,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o3-mini-high",
@@ -1294,7 +1609,16 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000055",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o3-mini",
@@ -1323,7 +1647,16 @@
         "tools"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000055",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "o1",
@@ -1352,7 +1685,16 @@
         "tools"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.00006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.0000075",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -1390,7 +1732,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -1428,7 +1779,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-mini-2024-07-18",
@@ -1466,7 +1826,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000075",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-mini",
@@ -1504,7 +1873,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000075",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -1542,7 +1920,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4o",
@@ -1580,7 +1967,16 @@
         "web_search_options"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4-turbo",
@@ -1617,7 +2013,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00003",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-3.5-turbo-16k",
@@ -1654,7 +2059,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000004",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-4",
@@ -1691,7 +2105,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00003",
+        "completion": "0.00006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     },
     {
       "id": "gpt-3.5-turbo",
@@ -1728,7 +2151,16 @@
         "top_p"
       ],
       "default_parameters": {},
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000015",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
     }
   ]
 }
