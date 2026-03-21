@@ -10,32 +10,35 @@ This metadata enables:
 
 The metadata is stored in JSON format and is inspired by the [OpenRouter API model listing schema](https://openrouter.ai/docs).
 
-Each JSON file in the data/ directory contains a list of model objects with the following structure:
+Each JSON file in the data/ directory has a `models` array of model objects with the following structure:
 
 ```json
 {
-  "id": "gpt-5",
-  "name": "GPT-5",
-  "description": "OpenAI’s most advanced model...",
+  "models": [
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "description": "OpenAI’s most advanced model...",
   "created": 1754587413,
-  "context_length": 400000,
-  "architecture": {
-    "modality": "text+image->text",
-    "input_modalities": ["text", "image", "file"],
-    "output_modalities": ["text"],
-    "tokenizer": "GPT",
-    "instruct_type": null
-  },
-  "top_provider": {
-    "context_length": 400000,
-    "max_completion_tokens": 128000,
-    "is_moderated": true
-  },
-  "supported_parameters": [
-    "max_tokens",
-    "temperature",
-    "response_format",
-    "structured_outputs"
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "max_tokens",
+        "temperature",
+        "response_format",
+        "structured_outputs"
+      ]
+    }
   ]
 }
 ```
@@ -48,7 +51,6 @@ Each JSON file in the data/ directory contains a list of model objects with the 
 - name: Human-readable model name
 - description: Summary of model capabilities and use cases
 - created: Unix timestamp of model release (used for sorting by release date; models with `-latest` in the id are listed first)
-- context_length: Maximum input context length (in tokens)
 
 ### architecture
 

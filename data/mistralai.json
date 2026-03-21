@@ -1,11 +1,10 @@
 {
-  "data": [
+  "models": [
     {
       "id": "mistral-small-2603",
       "name": "Mistral Small 4",
       "created": 1773695685,
       "description": "Provided by OpenRouter: Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from Magistral, multimodal understanding from Pixtral, and agentic coding capabilities from Devstral, enabling one model to handle complex analysis, software development, and visual tasks within the same workflow.",
-      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -48,7 +47,6 @@
       "name": "Mistral Small Creative",
       "created": 1765908653,
       "description": "Provided by OpenRouter: Mistral Small Creative is an experimental small model designed for creative writing, narrative generation, roleplay and character-driven dialogue, general-purpose instruction following, and conversational agents.",
-      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -67,7 +65,7 @@
         "top_p": 0.95,
         "frequency_penalty": null
       },
-      "expiration_date": null,
+      "expiration_date": "2026-04-30",
       "pricing": {
         "prompt": "0.00000006",
         "completion": "0.00000018",
@@ -83,7 +81,6 @@
       "name": "Devstral 2 2512",
       "created": 1765285419,
       "description": "Provided by OpenRouter: Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window.\n\nDevstral 2 supports exploring codebases and orchestrating changes across multiple files while maintaining architecture-level context. It tracks framework dependencies, detects failures, and retries with corrections—solving challenges like bug fixing and modernizing legacy systems. The model can be fine-tuned to prioritize specific languages or optimize for large enterprise codebases. It is available under a modified MIT license.",
-      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -130,7 +127,6 @@
       "name": "Ministral 3 14B 2512",
       "created": 1764681735,
       "description": "Provided by OpenRouter: The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart. A powerful and efficient language model with vision capabilities.",
-      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -180,7 +176,6 @@
       "name": "Ministral 3 8B 2512",
       "created": 1764681654,
       "description": "Provided by OpenRouter: A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
-      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -230,7 +225,6 @@
       "name": "Ministral 3 3B 2512",
       "created": 1764681560,
       "description": "Provided by OpenRouter: The smallest model in the Ministral 3 family, Ministral 3 3B is a powerful, efficient tiny language model with vision capabilities.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -280,7 +274,6 @@
       "name": "Mistral Large 3",
       "created": 1764624472,
       "description": "Provided by OpenRouter: Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
-      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -327,7 +320,6 @@
       "name": "Voxtral Small 24B 2507",
       "created": 1761835144,
       "description": "Provided by OpenRouter: Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio is priced at $100 per million seconds.",
-      "context_length": 32000,
       "architecture": {
         "modality": "text+audio->text",
         "input_modalities": ["text", "audio"],
@@ -374,7 +366,6 @@
       "name": "Mistral Medium 3.1",
       "created": 1755095639,
       "description": "Provided by OpenRouter: Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3.1 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -419,7 +410,6 @@
       "name": "Codestral",
       "created": 1754079630,
       "description": "Provided by OpenRouter: Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
-      "context_length": 256000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -464,7 +454,6 @@
       "name": "Devstral Medium",
       "created": 1752161321,
       "description": "Provided by OpenRouter: Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves 61.6% on SWE-Bench Verified, placing it ahead of Gemini 2.5 Pro and GPT-4.1 in code-related tasks, at a fraction of the cost. It is designed for generalization across prompt styles and tool use in code agents and frameworks.\n\nDevstral Medium is available via API only (not open-weight), and supports enterprise deployment on private infrastructure, with optional fine-tuning capabilities.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -509,7 +498,6 @@
       "name": "Devstral Small 1.1",
       "created": 1752160751,
       "description": "Provided by OpenRouter: Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.\n\nDesigned for agentic coding workflows, Devstral Small 1.1 is optimized for tasks such as codebase exploration, multi-file edits, and integration into autonomous development agents like OpenHands and Cline. It achieves 53.6% on SWE-Bench Verified, surpassing all other open models on this benchmark, while remaining lightweight enough to run on a single 4090 GPU or Apple silicon machine. The model uses a Tekken tokenizer with a 131k vocabulary and is deployable via vLLM, Transformers, Ollama, LM Studio, and other OpenAI-compatible runtimes.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -554,7 +542,6 @@
       "name": "Mistral Small 3.2 24B",
       "created": 1750443016,
       "description": "Provided by OpenRouter: Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["image", "text"],
@@ -563,7 +550,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 131072,
+        "context_length": 128000,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -603,7 +590,6 @@
       "name": "Mistral Medium 3",
       "created": 1746627341,
       "description": "Provided by OpenRouter: Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -648,7 +634,6 @@
       "name": "Mistral Small 3.1 24B",
       "created": 1742238937,
       "description": "Provided by OpenRouter: Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-      "context_length": 128000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -657,8 +642,8 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "supported_parameters": [
@@ -666,7 +651,10 @@
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
+        "stop",
+        "structured_outputs",
         "temperature",
         "top_k",
         "top_p"
@@ -690,7 +678,6 @@
       "name": "Saba",
       "created": 1739803239,
       "description": "Provided by OpenRouter: Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated regional datasets, it supports multiple Indian-origin languages—including Tamil and Malayalam—alongside Arabic. This makes it a versatile option for a range of regional and multilingual applications. Read more at the blog post [here](https://mistral.ai/en/news/mistral-saba)",
-      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -735,7 +722,6 @@
       "name": "Mistral Small 3",
       "created": 1738255409,
       "description": "Provided by OpenRouter: Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)",
-      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -785,7 +771,6 @@
       "name": "Mistral Large 2.1",
       "created": 1731978685,
       "description": "Provided by OpenRouter: Mistral Large 2 2411 is an update of Mistral Large 2 released together with Pixtral Large 2411\n\nIt provides a significant upgrade on the previous Mistral Large 24.07, with notable improvements in long context understanding, a new system prompt, and more accurate function calling.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -830,7 +815,6 @@
       "name": "Mistral Large 2.0",
       "created": 1731978415,
       "description": "Provided by OpenRouter: This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/).\n\nIt supports dozens of languages including French, German, Spanish, Italian, Portuguese, Arabic, Hindi, Russian, Chinese, Japanese, and Korean, along with 80+ coding languages including Python, Java, C, C++, JavaScript, and Bash. Its long context window allows precise information recall from large documents.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -875,7 +859,6 @@
       "name": "Pixtral Large",
       "created": 1731977388,
       "description": "Provided by OpenRouter: Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of Mistral Large 2. The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use, and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -920,7 +903,6 @@
       "name": "Mistral Nemo",
       "created": 1721347200,
       "description": "Provided by OpenRouter: A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -968,7 +950,6 @@
       "name": "Mixtral 8x22B Instruct",
       "created": 1713312000,
       "description": "Provided by OpenRouter: Mistral's official instruct fine-tuned version of Mixtral 8x22B. It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include:\n- strong math, coding, and reasoning\n- large context length (64k)\n- fluency in English, French, Italian, German, and Spanish\n\nSee benchmarks on the launch announcement [here](https://mistral.ai/news/mixtral-8x22b/).\n#moe",
-      "context_length": 65536,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -1013,7 +994,6 @@
       "name": "Mistral Large",
       "created": 1708905600,
       "description": "Provided by OpenRouter: This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/).\n\nIt supports dozens of languages including French, German, Spanish, Italian, Portuguese, Arabic, Hindi, Russian, Chinese, Japanese, and Korean, along with 80+ coding languages including Python, Java, C, C++, JavaScript, and Bash. Its long context window allows precise information recall from large documents.",
-      "context_length": 128000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -1058,7 +1038,6 @@
       "name": "Mixtral 8x7B Instruct",
       "created": 1702166400,
       "description": "Provided by OpenRouter: Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.\n\nInstruct model fine-tuned by Mistral. #moe",
-      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -1106,7 +1085,6 @@
       "name": "Mistral 7B Instruct v0.1",
       "created": 1695859200,
       "description": "Provided by OpenRouter: A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-      "context_length": 2824,
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
