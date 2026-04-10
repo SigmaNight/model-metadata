@@ -4,7 +4,7 @@
       "id": "grok-4.20-multi-agent",
       "name": "Grok 4.20 Multi-Agent",
       "created": 1774979158,
-      "description": "Provided by OpenRouter: Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+      "description": "Provided by OpenRouter: Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -43,10 +43,10 @@
       "id": "grok-4.20",
       "name": "Grok 4.20",
       "created": 1774979019,
-      "description": "Provided by OpenRouter: Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API.",
+      "description": "Provided by OpenRouter: Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Grok",
         "instruct_type": null
@@ -84,7 +84,7 @@
       "id": "grok-4.1-fast",
       "name": "Grok 4.1 Fast",
       "created": 1763587502,
-      "description": "Provided by OpenRouter: Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API.",
+      "description": "Provided by OpenRouter: Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window. Reasoning can be enabled/disabled using...",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -125,7 +125,7 @@
       "id": "grok-4-fast",
       "name": "Grok 4 Fast",
       "created": 1758240090,
-      "description": "Provided by OpenRouter: Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast).\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API.",
+      "description": "Provided by OpenRouter: Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's news post .",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -201,7 +201,7 @@
       "id": "grok-4",
       "name": "Grok 4",
       "created": 1752087689,
-      "description": "Provided by OpenRouter: Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens. See more details on the [xAI docs](https://docs.x.ai/docs/models/grok-4-0709)",
+      "description": "Provided by OpenRouter: Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens. See more details on the xAI docs",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["image", "text", "file"],
@@ -316,7 +316,7 @@
       "id": "grok-3-mini-beta",
       "name": "Grok 3 Mini Beta",
       "created": 1744240195,
-      "description": "Provided by OpenRouter: Grok 3 Mini is a lightweight, smaller thinking model. Unlike traditional models that generate answers immediately, Grok 3 Mini thinks before responding. It’s ideal for reasoning-heavy tasks that don’t demand extensive domain knowledge, and shines in math-specific and quantitative use cases, such as solving challenging puzzles or math problems.\n\nTransparent \"thinking\" traces accessible. Defaults to low reasoning, can boost with setting `reasoning: { effort: \"high\" }`\n\nNote: That there are two xAI endpoints for this model. By default when using this model we will always route you to the base endpoint. If you want the fast endpoint you can add `provider: { sort: throughput}`, to sort by throughput instead.",
+      "description": "Provided by OpenRouter: Grok 3 Mini is a lightweight, smaller thinking model. Unlike traditional models that generate answers immediately, Grok 3 Mini thinks before responding. It’s ideal for reasoning-heavy tasks that don’t demand...",
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],
@@ -354,7 +354,7 @@
       "id": "grok-3-beta",
       "name": "Grok 3 Beta",
       "created": 1744240068,
-      "description": "Provided by OpenRouter: Grok 3 is the latest model from xAI. It's their flagship model that excels at enterprise use cases like data extraction, coding, and text summarization. Possesses deep domain knowledge in finance, healthcare, law, and science.\n\nExcels in structured tasks and benchmarks like GPQA, LCB, and MMLU-Pro where it outperforms Grok 3 Mini even on high thinking. \n\nNote: That there are two xAI endpoints for this model. By default when using this model we will always route you to the base endpoint. If you want the fast endpoint you can add `provider: { sort: throughput}`, to sort by throughput instead.",
+      "description": "Provided by OpenRouter: Grok 3 is the latest model from xAI. It's their flagship model that excels at enterprise use cases like data extraction, coding, and text summarization. Possesses deep domain knowledge in finance, healthcare, law, and science.",
       "architecture": {
         "modality": "text->text",
         "input_modalities": ["text"],

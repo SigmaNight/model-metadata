@@ -19,6 +19,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -54,7 +55,7 @@
       "id": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
       "created": 1770219050,
-      "description": "The most intelligent model for building agents and coding",
+      "description": "The most intelligent broadly available model for agents and coding",
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": ["text", "image"],
@@ -69,6 +70,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
