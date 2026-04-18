@@ -1,6 +1,53 @@
 {
   "models": [
     {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "created": 1776351100,
+      "description": "Our most capable generally available model for complex reasoning and agentic coding",
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000125",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "image": "0",
+        "request": "0",
+        "audio": "0"
+      }
+    },
+    {
       "id": "claude-sonnet-4-6",
       "name": "Claude Sonnet 4.6",
       "created": 1771342990,
@@ -64,7 +111,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 200000,
         "max_completion_tokens": 128000,
         "is_moderated": true
       },
@@ -135,7 +182,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -181,7 +231,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -399,7 +452,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 32000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -417,7 +470,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -445,7 +501,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 32000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -463,7 +519,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -473,182 +532,6 @@
         "request": "0",
         "input_cache_read": "0.0000015",
         "input_cache_write": "0.00001875",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "claude-opus-4-20250514",
-      "name": "Claude Opus 4.20250514",
-      "created": 1747931245,
-      "description": "Provided by OpenRouter: Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in software engineering, achieving leading results on SWE-bench (72.5%) and Terminal-bench (43.2%). Opus 4 supports extended, agentic workflows, handling thousands of task steps continuously for hours without degradation. \n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 32000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000015",
-        "completion": "0.000075",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000015",
-        "input_cache_write": "0.00001875",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "claude-opus-4",
-      "name": "Claude Opus 4",
-      "created": 1747931245,
-      "description": "Provided by OpenRouter: Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in software engineering, achieving leading results on SWE-bench (72.5%) and Terminal-bench (43.2%). Opus 4 supports extended, agentic workflows, handling thousands of task steps continuously for hours without degradation. \n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 32000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000015",
-        "completion": "0.000075",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000015",
-        "input_cache_write": "0.00001875",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "claude-sonnet-4-20250514",
-      "name": "Claude Sonnet 4.20250514",
-      "created": 1747930371,
-      "description": "Provided by OpenRouter: Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 64000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000003",
-        "completion": "0.000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000003",
-        "input_cache_write": "0.00000375",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "claude-sonnet-4",
-      "name": "Claude Sonnet 4",
-      "created": 1747930371,
-      "description": "Provided by OpenRouter: Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 64000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000003",
-        "completion": "0.000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000003",
-        "input_cache_write": "0.00000375",
         "audio": "0"
       }
     }

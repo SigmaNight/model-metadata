@@ -15,7 +15,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -53,7 +53,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -91,7 +91,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -138,7 +138,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -375,7 +375,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -419,7 +419,7 @@
       "top_provider": {
         "context_length": 128000,
         "max_completion_tokens": 16384,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "max_completion_tokens",
@@ -504,7 +504,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -598,7 +598,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -734,7 +734,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 100000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1106,7 +1106,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1200,7 +1200,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1411,7 +1411,7 @@
       "top_provider": {
         "context_length": 1047576,
         "max_completion_tokens": 32768,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "max_completion_tokens",
@@ -1852,6 +1852,53 @@
       }
     },
     {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o-mini",
+      "created": 1721260800,
+      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000075",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
+    },
+    {
       "id": "gpt-4o-mini-2024-07-18",
       "name": "GPT-4o-mini (2024-07-18)",
       "created": 1721260800,
@@ -1898,55 +1945,8 @@
       }
     },
     {
-      "id": "gpt-4o-mini",
-      "name": "GPT-4o-mini",
-      "created": 1721260800,
-      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "gpt-4o-2024-05-13",
-      "name": "GPT-4o (2024-05-13)",
+      "id": "gpt-4o",
+      "name": "GPT-4o (extended)",
       "created": 1715558400,
       "description": "Provided by OpenRouter: GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of GPT-4 Turbo while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.",
       "architecture": {
@@ -1958,14 +1958,13 @@
       },
       "top_provider": {
         "context_length": 128000,
-        "max_completion_tokens": 4096,
+        "max_completion_tokens": 64000,
         "is_moderated": true
       },
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "presence_penalty",
         "response_format",
@@ -1992,8 +1991,8 @@
       }
     },
     {
-      "id": "gpt-4o",
-      "name": "GPT-4o (extended)",
+      "id": "gpt-4o-2024-05-13",
+      "name": "GPT-4o (2024-05-13)",
       "created": 1715558400,
       "description": "Provided by OpenRouter: GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of GPT-4 Turbo while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.",
       "architecture": {
@@ -2005,13 +2004,14 @@
       },
       "top_provider": {
         "context_length": 128000,
-        "max_completion_tokens": 64000,
-        "is_moderated": true
+        "max_completion_tokens": 4096,
+        "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
         "logprobs",
+        "max_completion_tokens",
         "max_tokens",
         "presence_penalty",
         "response_format",
