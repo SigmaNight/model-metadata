@@ -272,7 +272,7 @@
     },
     {
       "id": "mistral-large-2512",
-      "name": "Mistral Large 3 2512",
+      "name": "Mistral Large 3",
       "created": 1764624472,
       "description": "Provided by OpenRouter: Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
       "architecture": {
@@ -408,7 +408,7 @@
     },
     {
       "id": "codestral-2508",
-      "name": "Codestral 2508",
+      "name": "Codestral",
       "created": 1754079630,
       "description": "Provided by OpenRouter: Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
       "architecture": {
@@ -763,7 +763,7 @@
     },
     {
       "id": "mistral-large-2411",
-      "name": "Mistral Large 2411",
+      "name": "Mistral Large 2.1",
       "created": 1731978685,
       "description": "Provided by OpenRouter: Mistral Large 2 2411 is an update of Mistral Large 2 released together with Pixtral Large 2411 It provides a significant upgrade on the previous Mistral Large 24.07, with notable...",
       "architecture": {
@@ -807,7 +807,7 @@
     },
     {
       "id": "mistral-large-2407",
-      "name": "Mistral Large 2407",
+      "name": "Mistral Large 2.0",
       "created": 1731978415,
       "description": "Provided by OpenRouter: This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
       "architecture": {
@@ -851,7 +851,7 @@
     },
     {
       "id": "pixtral-large-2411",
-      "name": "Pixtral Large 2411",
+      "name": "Pixtral Large",
       "created": 1731977388,
       "description": "Provided by OpenRouter: Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of Mistral Large 2. The model is able to understand documents, charts and natural images. The model is...",
       "architecture": {
@@ -912,6 +912,8 @@
       },
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -924,6 +926,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
