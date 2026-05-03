@@ -15,7 +15,7 @@
       "top_provider": {
         "context_length": 1048576,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -113,7 +113,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -280,7 +280,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -326,7 +329,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
@@ -354,7 +360,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 64000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -403,7 +409,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 64000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",

@@ -44,40 +44,6 @@
       "expiration_date": null
     },
     {
-      "id": "mistral-small-creative",
-      "name": "Mistral Small Creative",
-      "created": 1765908653,
-      "description": "Provided by OpenRouter: Mistral Small Creative is an experimental small model designed for creative writing, narrative generation, roleplay and character-driven dialogue, general-purpose instruction following, and conversational agents.",
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": ["tool_choice", "tools"],
-      "default_parameters": {
-        "temperature": 0.3,
-        "top_p": 0.95,
-        "frequency_penalty": null
-      },
-      "expiration_date": "2026-04-30",
-      "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
       "id": "devstral-2512",
       "name": "Devstral 2 2512",
       "created": 1765285419,
@@ -734,6 +700,7 @@
       },
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -741,6 +708,7 @@
         "response_format",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "top_k",
         "top_p"
@@ -1050,6 +1018,7 @@
       },
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -1057,6 +1026,7 @@
         "response_format",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -1066,7 +1036,7 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null,
+      "expiration_date": "2026-05-08",
       "pricing": {
         "prompt": "0.00000024",
         "completion": "0.00000024",
