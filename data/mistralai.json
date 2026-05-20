@@ -1,6 +1,48 @@
 {
   "models": [
     {
+      "id": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "created": 1777570439,
+      "description": "Provided by OpenRouter: Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex multi-step reasoning. It is particularly strong at reliable multi-tool calling and long-horizon tasks, with a 256K context window, configurable reasoning effort per request, and a custom vision encoder that handles variable image sizes and aspect ratios. Self-hostable on as few as four GPUs and available under open weights.",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "Mistral",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
       "id": "mistral-small-2603",
       "name": "Mistral Small 4",
       "created": 1773695685,
@@ -49,8 +91,8 @@
       "created": 1765285419,
       "description": "Provided by OpenRouter: Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -242,8 +284,8 @@
       "created": 1764624472,
       "description": "Provided by OpenRouter: Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -288,8 +330,8 @@
       "created": 1761835144,
       "description": "Provided by OpenRouter: Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio is priced at $100 per million seconds.",
       "architecture": {
-        "modality": "text+audio->text",
-        "input_modalities": ["text", "audio"],
+        "modality": "text+file+audio->text",
+        "input_modalities": ["text", "audio", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -334,8 +376,8 @@
       "created": 1755095639,
       "description": "Provided by OpenRouter: Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -378,8 +420,8 @@
       "created": 1754079630,
       "description": "Provided by OpenRouter: Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -422,8 +464,8 @@
       "created": 1752161321,
       "description": "Provided by OpenRouter: Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves 61.6% on SWE-Bench Verified, placing it ahead of Gemini 2.5 Pro and GPT-4.1 in code-related tasks, at a fraction of the cost. It is designed for generalization across prompt styles and tool use in code agents and frameworks.",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -466,8 +508,8 @@
       "created": 1752160751,
       "description": "Provided by OpenRouter: Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -558,8 +600,8 @@
       "created": 1746627341,
       "description": "Provided by OpenRouter: Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -615,10 +657,13 @@
       },
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "repetition_penalty",
         "seed",
+        "stop",
         "temperature",
         "top_k",
         "top_p"
@@ -643,8 +688,8 @@
       "created": 1739803239,
       "description": "Provided by OpenRouter: Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated regional datasets, it supports multiple Indian-origin languages—including Tamil and Malayalam—alongside Arabic. This makes it a versatile option for a range of regional and multilingual applications. Read more at the blog post here",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -735,8 +780,8 @@
       "created": 1731978685,
       "description": "Provided by OpenRouter: Mistral Large 2 2411 is an update of Mistral Large 2 released together with Pixtral Large 2411 It provides a significant upgrade on the previous Mistral Large 24.07, with notable...",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -779,8 +824,8 @@
       "created": 1731978415,
       "description": "Provided by OpenRouter: This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -823,8 +868,8 @@
       "created": 1731977388,
       "description": "Provided by OpenRouter: Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of Mistral Large 2. The model is able to understand documents, charts and natural images. The model is...",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -881,7 +926,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -894,7 +938,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -917,8 +960,8 @@
       "created": 1713312000,
       "description": "Provided by OpenRouter: Mistral's official instruct fine-tuned version of Mixtral 8x22B. It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: - strong math, coding,...",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -961,8 +1004,8 @@
       "created": 1708905600,
       "description": "Provided by OpenRouter: This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
       "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
+        "modality": "text+file->text",
+        "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -1000,54 +1043,6 @@
       }
     },
     {
-      "id": "mixtral-8x7b-instruct",
-      "name": "Mixtral 8x7B Instruct",
-      "created": 1702166400,
-      "description": "Provided by OpenRouter: Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.",
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": 16384,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": "2026-05-08",
-      "pricing": {
-        "prompt": "0.00000024",
-        "completion": "0.00000024",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
       "id": "mistral-7b-instruct-v0.1",
       "name": "Mistral 7B Instruct v0.1",
       "created": 1695859200,
@@ -1060,16 +1055,19 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 2824,
-        "max_completion_tokens": null,
+        "context_length": 4096,
+        "max_completion_tokens": 2824,
         "is_moderated": false
       },
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "repetition_penalty",
         "seed",
+        "stop",
         "temperature",
         "top_k",
         "top_p"
@@ -1077,7 +1075,7 @@
       "default_parameters": {
         "temperature": 0.3
       },
-      "expiration_date": null,
+      "expiration_date": "2026-05-30",
       "pricing": {
         "prompt": "0.00000005",
         "completion": "0.00000005",

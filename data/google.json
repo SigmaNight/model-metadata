@@ -1,6 +1,86 @@
 {
   "models": [
     {
+      "id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "created": 1779193800,
+      "description": "Provided by OpenRouter: Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution loops, supporting text, image, video, audio, and PDF inputs.",
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": ["text", "image", "video", "file", "audio"],
+        "output_modalities": ["text"],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash Lite",
+      "created": 1778168828,
+      "description": "Provided by OpenRouter: Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic workflows, simple data extraction, and applications where responsiveness and API cost are the primary constraints.",
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": ["text", "image", "video", "file", "audio"],
+        "output_modalities": ["text"],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
       "id": "gemma-4-26b-a4b-it",
       "name": "Gemma 4 26B A4B",
       "created": 1775227989,
@@ -223,7 +303,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 65536,
+        "context_length": 131072,
         "max_completion_tokens": 65536,
         "is_moderated": false
       },
@@ -270,7 +350,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 1048756,
         "max_completion_tokens": 65536,
         "is_moderated": false
       },

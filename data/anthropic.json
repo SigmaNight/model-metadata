@@ -6,8 +6,8 @@
       "created": 1776351100,
       "description": "Our most capable generally available model for complex reasoning and agentic coding",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
@@ -53,8 +53,8 @@
       "created": 1771342990,
       "description": "The best combination of speed and intelligence",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
@@ -104,8 +104,8 @@
       "created": 1770219050,
       "description": "The most intelligent broadly available model for agents and coding",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
@@ -253,8 +253,8 @@
       "created": 1760547638,
       "description": "The fastest model with near-frontier intelligence",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["image", "text"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
@@ -302,8 +302,8 @@
       "created": 1760547638,
       "description": "The fastest model with near-frontier intelligence",
       "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["image", "text"],
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
