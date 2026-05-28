@@ -242,55 +242,6 @@
       "expiration_date": null
     },
     {
-      "id": "gemini-3.1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash Lite Preview",
-      "created": 1772512673,
-      "description": "Provided by OpenRouter: Gemini 3.1 Flash Lite Preview is Google's high-efficiency model optimized for high-volume use cases. It outperforms Gemini 2.5 Flash Lite on overall quality and approaches Gemini 2.5 Flash performance across key capabilities. Improvements span audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion. Supports full thinking levels (minimal, low, medium, high) for fine-grained cost/performance trade-offs. Priced at half the cost of Gemini 3 Flash.",
-      "architecture": {
-        "modality": "text+image+file+audio+video->text",
-        "input_modalities": ["text", "image", "video", "file", "audio"],
-        "output_modalities": ["text"],
-        "tokenizer": "Gemini",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 65536,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.0000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000025",
-        "input_cache_write": "0",
-        "audio": "0.0000005"
-      }
-    },
-    {
       "id": "gemini-3.1-flash-image-preview",
       "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
       "created": 1772119558,
@@ -692,7 +643,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "expiration_date": null,
       "pricing": {
