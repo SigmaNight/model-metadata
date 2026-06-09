@@ -459,94 +459,6 @@
       }
     },
     {
-      "id": "devstral-medium",
-      "name": "Devstral Medium",
-      "created": 1752161321,
-      "description": "Provided by OpenRouter: Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves 61.6% on SWE-Bench Verified, placing it ahead of Gemini 2.5 Pro and GPT-4.1 in code-related tasks, at a fraction of the cost. It is designed for generalization across prompt styles and tool use in code agents and frameworks.",
-      "architecture": {
-        "modality": "text+file->text",
-        "input_modalities": ["text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "devstral-small",
-      "name": "Devstral Small 1.1",
-      "created": 1752160751,
-      "description": "Provided by OpenRouter: Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.",
-      "architecture": {
-        "modality": "text+file->text",
-        "input_modalities": ["text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
       "id": "mistral-small-3.2-24b-instruct",
       "name": "Mistral Small 3.2 24B",
       "created": 1750443016,
@@ -775,50 +687,6 @@
       }
     },
     {
-      "id": "mistral-large-2411",
-      "name": "Mistral Large 2.1",
-      "created": 1731978685,
-      "description": "Provided by OpenRouter: Mistral Large 2 2411 is an update of Mistral Large 2 released together with Pixtral Large 2411 It provides a significant upgrade on the previous Mistral Large 24.07, with notable...",
-      "architecture": {
-        "modality": "text+file->text",
-        "input_modalities": ["text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
       "id": "mistral-large-2407",
       "name": "Mistral Large 2.0",
       "created": 1731978415,
@@ -826,50 +694,6 @@
       "architecture": {
         "modality": "text+file->text",
         "input_modalities": ["text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "pixtral-large-2411",
-      "name": "Pixtral Large",
-      "created": 1731977388,
-      "description": "Provided by OpenRouter: Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of Mistral Large 2. The model is able to understand documents, charts and natural images. The model is...",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
         "instruct_type": null
@@ -1035,50 +859,6 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "mistral-7b-instruct-v0.1",
-      "name": "Mistral 7B Instruct v0.1",
-      "created": 1695859200,
-      "description": "Provided by OpenRouter: A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "Mistral",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 4096,
-        "max_completion_tokens": 2824,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.3
-      },
-      "expiration_date": "2026-05-30",
-      "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000005",
         "image": "0",
         "request": "0",
         "input_cache_read": "0",

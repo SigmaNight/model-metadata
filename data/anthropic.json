@@ -1,10 +1,10 @@
 {
   "models": [
     {
-      "id": "claude-opus-4-8",
-      "name": "Claude Opus 4.8",
-      "created": 1779905091,
-      "description": "Anthropic's most capable model for complex reasoning and agentic coding",
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "created": 1781007515,
+      "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -14,6 +14,44 @@
       },
       "top_provider": {
         "context_length": 1048576,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "created": 1779905091,
+      "description": "Anthropic's most capable Opus-tier model for complex reasoning and agentic coding",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 200000,
         "max_completion_tokens": 128000,
         "is_moderated": false
       },
@@ -107,7 +145,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 200000,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -307,7 +345,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 204800,
+        "context_length": 200000,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -356,7 +394,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 204800,
+        "context_length": 200000,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -491,102 +529,25 @@
       }
     },
     {
-      "id": "claude-opus-4-1-20250805",
-      "name": "Claude Opus 4.1",
-      "created": 1754411591,
-      "description": "Provided by OpenRouter: Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains in multi-file code refactoring, debugging precision, and detail-oriented reasoning. The model supports extended thinking up to 64K tokens and is optimized for tasks involving research, data analysis, and tool-assisted reasoning.",
+      "id": "claude-mythos-5",
+      "name": "Claude Mythos 5",
+      "created": 0,
+      "description": "Available through Project Glasswing. Successor to Claude Mythos Preview.",
       "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
         "output_modalities": ["text"],
         "tokenizer": "Claude",
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 32000,
+        "context_length": 1048576,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000015",
-        "completion": "0.000075",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000015",
-        "input_cache_write": "0.00001875",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "claude-opus-4-1",
-      "name": "Claude Opus 4.1",
-      "created": 1754411591,
-      "description": "Provided by OpenRouter: Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains in multi-file code refactoring, debugging precision, and detail-oriented reasoning. The model supports extended thinking up to 64K tokens and is optimized for tasks involving research, data analysis, and tool-assisted reasoning.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 32000,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000015",
-        "completion": "0.000075",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000015",
-        "input_cache_write": "0.00001875",
-        "audio": "0"
-      }
+      "supported_parameters": [],
+      "default_parameters": {},
+      "expiration_date": null
     }
   ]
 }
