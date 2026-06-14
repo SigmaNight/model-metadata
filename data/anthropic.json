@@ -19,6 +19,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -51,7 +52,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
+        "context_length": 1048576,
         "max_completion_tokens": 128000,
         "is_moderated": false
       },
@@ -145,7 +146,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
+        "context_length": 1048576,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -345,7 +346,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
+        "context_length": 204800,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -394,7 +395,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 200000,
+        "context_length": 204800,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -542,7 +543,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 128000,
         "is_moderated": false
       },
       "supported_parameters": [],
