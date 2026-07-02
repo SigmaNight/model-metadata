@@ -1,10 +1,10 @@
 {
   "models": [
     {
-      "id": "claude-fable-5",
-      "name": "Claude Fable 5",
-      "created": 1781007515,
-      "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "created": 1782843083,
+      "description": "The best combination of speed and intelligence",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -37,13 +37,61 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "image": "0",
+        "request": "0",
+        "audio": "0"
+      }
+    },
+    {
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "created": 1781007515,
+      "description": "Next-generation intelligence for long-running agents",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
       "expiration_date": null
     },
     {
       "id": "claude-opus-4-8",
       "name": "Claude Opus 4.8",
       "created": 1779905091,
-      "description": "Anthropic's most capable Opus-tier model for complex reasoning and agentic coding",
+      "description": "For complex agentic coding and enterprise work",
       "architecture": {
         "modality": "text+image+file->text",
         "input_modalities": ["text", "image", "file"],
@@ -146,7 +194,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 200000,
         "max_completion_tokens": 64000,
         "is_moderated": true
       },
@@ -528,27 +576,6 @@
         "input_cache_write": "0.00000375",
         "audio": "0"
       }
-    },
-    {
-      "id": "claude-mythos-5",
-      "name": "Claude Mythos 5",
-      "created": 0,
-      "description": "Available through Project Glasswing. Successor to Claude Mythos Preview.",
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": ["text", "image"],
-        "output_modalities": ["text"],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 128000,
-        "is_moderated": false
-      },
-      "supported_parameters": [],
-      "default_parameters": {},
-      "expiration_date": null
     }
   ]
 }
