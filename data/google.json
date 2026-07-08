@@ -643,7 +643,7 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": null,
+      "expiration_date": "2026-07-09",
       "pricing": {
         "prompt": "0.0000001",
         "completion": "0.0000004",
