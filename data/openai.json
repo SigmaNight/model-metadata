@@ -18,18 +18,12 @@
         "is_moderated": true
       },
       "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "presence_penalty",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "tool_choice",
-        "tools",
-        "top_logprobs"
+        "tools"
       ],
       "default_parameters": {
         "temperature": null,
@@ -60,6 +54,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -98,6 +93,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -136,6 +132,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -174,6 +171,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -212,6 +210,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -250,6 +249,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -412,7 +412,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -547,7 +547,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -595,7 +595,7 @@
       "top_provider": {
         "context_length": 128000,
         "max_completion_tokens": 16384,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "max_completion_tokens",
@@ -614,7 +614,7 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null,
+      "expiration_date": "2026-08-10",
       "pricing": {
         "prompt": "0.00000175",
         "completion": "0.000014",
@@ -671,107 +671,6 @@
         "input_cache_read": "0.000000125",
         "input_cache_write": "0",
         "audio": "0"
-      }
-    },
-    {
-      "id": "gpt-audio",
-      "name": "GPT Audio",
-      "created": 1768862569,
-      "description": "Provided by OpenRouter: The gpt-audio model is OpenAI's first generally available audio model. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Audio is priced at $32 per million input tokens and $64 per million output tokens.",
-      "architecture": {
-        "modality": "text+audio->text+audio",
-        "input_modalities": ["text", "audio"],
-        "output_modalities": ["text", "audio"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000032",
-        "completion": "0.000064",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0.000032"
-      }
-    },
-    {
-      "id": "gpt-audio-mini",
-      "name": "GPT Audio Mini",
-      "created": 1768859419,
-      "description": "Provided by OpenRouter: A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million tokens and output is priced at $2.40 per million tokens.",
-      "architecture": {
-        "modality": "text+audio->text+audio",
-        "input_modalities": ["text", "audio"],
-        "output_modalities": ["text", "audio"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000024",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "audio": "0.0000006"
       }
     },
     {
@@ -923,7 +822,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -971,7 +870,7 @@
       "top_provider": {
         "context_length": 128000,
         "max_completion_tokens": 16384,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "max_completion_tokens",
@@ -1190,7 +1089,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1286,7 +1185,7 @@
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1416,7 +1315,7 @@
       "top_provider": {
         "context_length": 1047576,
         "max_completion_tokens": 32768,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "max_completion_tokens",
@@ -1573,6 +1472,7 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -1612,7 +1512,7 @@
       "top_provider": {
         "context_length": 128000,
         "max_completion_tokens": 16384,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -1620,6 +1520,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -1640,6 +1541,54 @@
         "image": "0",
         "request": "0",
         "input_cache_read": "0.00000125",
+        "input_cache_write": "0",
+        "audio": "0"
+      }
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o-mini",
+      "created": 1721260800,
+      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": "0",
+        "request": "0",
+        "input_cache_read": "0.000000075",
         "input_cache_write": "0",
         "audio": "0"
       }
@@ -1666,53 +1615,7 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0",
-        "audio": "0"
-      }
-    },
-    {
-      "id": "gpt-4o-mini",
-      "name": "GPT-4o-mini",
-      "created": 1721260800,
-      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -1752,7 +1655,7 @@
       "top_provider": {
         "context_length": 128000,
         "max_completion_tokens": 64000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -1760,6 +1663,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",

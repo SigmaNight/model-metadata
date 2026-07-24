@@ -1,6 +1,88 @@
 {
   "models": [
     {
+      "id": "gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "created": 1784646733,
+      "description": "Provided by OpenRouter: Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and less hedging, while reducing token use and the number of model calls needed to complete a task.",
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": ["text", "image", "video", "file", "audio"],
+        "output_modalities": ["text"],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash Lite",
+      "created": 1784646726,
+      "description": "Provided by OpenRouter: Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": ["text", "image", "video", "file", "audio"],
+        "output_modalities": ["text"],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null
+    },
+    {
       "id": "gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
       "created": 1782837225,
@@ -74,7 +156,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 65536,
+        "context_length": 131072,
         "max_completion_tokens": 32768,
         "is_moderated": false
       },
@@ -196,10 +278,8 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -239,24 +319,14 @@
         "is_moderated": false
       },
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "min_p",
-        "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
         "seed",
-        "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -397,7 +467,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048756,
+        "context_length": 1048576,
         "max_completion_tokens": 65536,
         "is_moderated": false
       },
@@ -991,7 +1061,7 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 131072,
+        "context_length": 262144,
         "max_completion_tokens": 65536,
         "is_moderated": false
       },

@@ -1,6 +1,54 @@
 {
   "models": [
     {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "created": 1784912544,
+      "description": "For complex agentic coding and enterprise work",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000125",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "image": "0",
+        "request": "0",
+        "audio": "0"
+      }
+    },
+    {
       "id": "claude-sonnet-5",
       "name": "Claude Sonnet 5",
       "created": 1782843083,
@@ -15,7 +63,7 @@
       "top_provider": {
         "context_length": 1048576,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -64,7 +112,7 @@
       "top_provider": {
         "context_length": 1048576,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -102,9 +150,9 @@
         "instruct_type": null
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 200000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -154,7 +202,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -255,7 +303,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
