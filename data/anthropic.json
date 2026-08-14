@@ -67,7 +67,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -116,7 +115,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -156,14 +154,12 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
-        "temperature",
         "tool_choice",
         "tools",
         "verbosity"
@@ -206,7 +202,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -255,7 +250,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -265,7 +259,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p",
         "verbosity"
       ],
@@ -307,7 +300,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -317,7 +309,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p",
         "verbosity"
       ],
@@ -359,7 +350,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -368,7 +358,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "verbosity"
       ],
       "default_parameters": {
@@ -409,7 +398,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -418,7 +406,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "verbosity"
       ],
       "default_parameters": {
@@ -459,7 +446,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -509,7 +495,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -559,7 +544,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -609,7 +593,6 @@
       },
       "supported_parameters": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
