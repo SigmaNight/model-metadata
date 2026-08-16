@@ -41,7 +41,35 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["high", "none"],
+        "default_effort": "high"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 30.4,
+          "coding_index": 46.9,
+          "agentic_index": 19.2
+        }
+      },
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      }
     },
     {
       "id": "mistral-small-2603",
@@ -85,7 +113,37 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["high", "none"],
+        "default_effort": "high",
+        "default_enabled": false
+      },
+      "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 19.7,
+          "coding_index": 26.6,
+          "agentic_index": 4.6
+        }
+      },
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000015",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      }
     },
     {
       "id": "ministral-14b-2512",
@@ -124,13 +182,57 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "prompt": "0.0000002",
+        "completion": "0.0000002",
+        "input_cache_read": "0.00000002",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "hugging_face_id": "mistralai/Ministral-3-14B-Instruct-2512",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1043,
+            "win_rate": 39.6,
+            "rank": 95
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1084,
+            "win_rate": 44,
+            "rank": 92
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1077,
+            "win_rate": 43.6,
+            "rank": 93
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1092,
+            "win_rate": 44.8,
+            "rank": 95
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 11.2,
+          "coding_index": 14.4,
+          "agentic_index": 2.2
+        }
       }
     },
     {
@@ -172,11 +274,55 @@
       "pricing": {
         "prompt": "0.00000015",
         "completion": "0.00000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.000000015",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1085,
+            "win_rate": 46.2,
+            "rank": 88
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1072,
+            "win_rate": 42.9,
+            "rank": 93
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1029,
+            "win_rate": 38.7,
+            "rank": 103
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1076,
+            "win_rate": 42.9,
+            "rank": 97
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 9,
+          "coding_index": 9.7,
+          "agentic_index": 1.2
+        }
       }
     },
     {
@@ -218,11 +364,55 @@
       "pricing": {
         "prompt": "0.0000001",
         "completion": "0.0000001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.00000001",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "hugging_face_id": "mistralai/Ministral-3-3B-Instruct-2512",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1016,
+            "win_rate": 35.9,
+            "rank": 101
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1029,
+            "win_rate": 37.3,
+            "rank": 102
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 987,
+            "win_rate": 33,
+            "rank": 111
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1039,
+            "win_rate": 38.2,
+            "rank": 106
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 7.1,
+          "coding_index": 4.8,
+          "agentic_index": 1.6
+        }
       }
     },
     {
@@ -264,11 +454,82 @@
       "pricing": {
         "prompt": "0.0000005",
         "completion": "0.0000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.00000005",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1153,
+            "win_rate": 47,
+            "rank": 66
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1101,
+            "win_rate": 40.3,
+            "rank": 53
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1161,
+            "win_rate": 47.6,
+            "rank": 68
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1160,
+            "win_rate": 45.8,
+            "rank": 68
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1119,
+            "win_rate": 41.6,
+            "rank": 83
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1027,
+            "win_rate": 37.7,
+            "rank": 72
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1131,
+            "win_rate": 43.3,
+            "rank": 73
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1173,
+            "win_rate": 49.4,
+            "rank": 68
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 15.9,
+          "coding_index": 20.1,
+          "agentic_index": 5.5
+        }
       }
     },
     {
@@ -308,14 +569,21 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "input_cache_read": "0.00000001",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0.0001",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "hugging_face_id": "mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "mistral-medium-3.1",
@@ -354,11 +622,83 @@
       "pricing": {
         "prompt": "0.0000004",
         "completion": "0.000002",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.00000004",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2025-06-30",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1134,
+            "win_rate": 44.6,
+            "rank": 74
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1030,
+            "win_rate": 30.8,
+            "rank": 57
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1139,
+            "win_rate": 45,
+            "rank": 77
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1167,
+            "win_rate": 47.3,
+            "rank": 66
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1112,
+            "win_rate": 40.8,
+            "rank": 86
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1026,
+            "win_rate": 37.5,
+            "rank": 73
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1127,
+            "win_rate": 43.5,
+            "rank": 77
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1144,
+            "win_rate": 45.9,
+            "rank": 79
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 14.7,
+          "coding_index": 20.5,
+          "agentic_index": 6.1
+        }
       }
     },
     {
@@ -399,11 +739,64 @@
       "pricing": {
         "prompt": "0.0000003",
         "completion": "0.0000009",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.00000003",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1026,
+            "win_rate": 38.5,
+            "rank": 103
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1040,
+            "win_rate": 41.1,
+            "rank": 97
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1006,
+            "win_rate": 36.3,
+            "rank": 108
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1045,
+            "win_rate": 46.7,
+            "rank": 92
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1024,
+            "win_rate": 37.8,
+            "rank": 108
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1073,
+            "win_rate": 45.4,
+            "rank": 90
+          }
+        ]
       }
     },
     {
@@ -447,13 +840,60 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "image": "0",
-        "request": "0",
+        "prompt": "0.00000009375",
+        "completion": "0.00000025",
         "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31",
+      "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 926,
+            "win_rate": 39.8,
+            "rank": 114
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 950,
+            "win_rate": 43.3,
+            "rank": 107
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 927,
+            "win_rate": 39.4,
+            "rank": 117
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 935,
+            "win_rate": 40.5,
+            "rank": 108
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 907,
+            "win_rate": 38.3,
+            "rank": 119
+          }
+        ]
       }
     },
     {
@@ -493,11 +933,64 @@
       "pricing": {
         "prompt": "0.0000004",
         "completion": "0.000002",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.00000004",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1137,
+            "win_rate": 54.7,
+            "rank": 71
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1088,
+            "win_rate": 48.1,
+            "rank": 91
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1056,
+            "win_rate": 46,
+            "rank": 95
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1056,
+            "win_rate": 45.2,
+            "rank": 97
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1053,
+            "win_rate": 49.6,
+            "rank": 91
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1090,
+            "win_rate": 47.6,
+            "rank": 96
+          }
+        ]
       }
     },
     {
@@ -537,14 +1030,22 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "image": "0",
-        "request": "0",
+        "prompt": "0.000000351",
+        "completion": "0.000000555",
         "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31",
+      "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503"
     },
     {
       "id": "mistral-saba",
@@ -581,14 +1082,21 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "prompt": "0.0000002",
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000002",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-09-30"
     },
     {
       "id": "mistral-small-24b-instruct-2501",
@@ -629,14 +1137,22 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "image": "0",
-        "request": "0",
+        "prompt": "0.00000005",
+        "completion": "0.00000008",
         "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31",
+      "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501"
     },
     {
       "id": "mistral-large-2407",
@@ -675,12 +1191,19 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.0000002",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-03-31"
     },
     {
       "id": "mistral-nemo",
@@ -692,7 +1215,7 @@
         "input_modalities": ["text"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
-        "instruct_type": null
+        "instruct_type": "mistral"
       },
       "top_provider": {
         "context_length": 131072,
@@ -723,14 +1246,22 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000002",
-        "completion": "0.00000004",
-        "image": "0",
-        "request": "0",
+        "prompt": "0.000000019",
+        "completion": "0.00000003",
         "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-04-30",
+      "hugging_face_id": "mistralai/Mistral-Nemo-Instruct-2407"
     },
     {
       "id": "mixtral-8x22b-instruct",
@@ -742,7 +1273,7 @@
         "input_modalities": ["text", "file"],
         "output_modalities": ["text"],
         "tokenizer": "Mistral",
-        "instruct_type": null
+        "instruct_type": "mistral"
       },
       "top_provider": {
         "context_length": 65536,
@@ -767,14 +1298,22 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000012",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "input_cache_read": "0.0000002",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-01-31",
+      "hugging_face_id": "mistralai/Mixtral-8x22B-Instruct-v0.1"
     },
     {
       "id": "mistral-large",
@@ -813,12 +1352,19 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "input_cache_read": "0.0000002",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-11-30"
     }
   ]
 }

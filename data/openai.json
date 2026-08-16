@@ -33,7 +33,22 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      }
     },
     {
       "id": "gpt-5.6-luna-pro",
@@ -71,7 +86,37 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.0000009",
+            "input_cache_read": "0.00000002"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.6-luna",
@@ -109,7 +154,45 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 52.3,
+          "coding_index": 71.4,
+          "agentic_index": 46.9
+        }
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.0000009",
+            "input_cache_read": "0.00000002"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.6-terra-pro",
@@ -147,7 +230,37 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000002",
+            "completion": "0.000009",
+            "input_cache_read": "0.0000002"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.6-terra",
@@ -185,7 +298,45 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 56.6,
+          "coding_index": 76.7,
+          "agentic_index": 50.2
+        }
+      },
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000002",
+            "completion": "0.000009",
+            "input_cache_read": "0.0000002"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.6-sol-pro",
@@ -223,7 +374,37 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000005",
+            "completion": "0.0000225",
+            "input_cache_read": "0.0000005"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.6-sol",
@@ -261,7 +442,45 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2026-02-16",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 60.9,
+          "coding_index": 77.4,
+          "agentic_index": 57.8
+        }
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000005",
+            "completion": "0.0000225",
+            "input_cache_read": "0.0000005"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.5-pro",
@@ -299,7 +518,35 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["xhigh", "high", "medium"],
+        "default_effort": "medium"
+      },
+      "knowledge_cutoff": "2025-12-01",
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.00009",
+        "input_cache_read": "0",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.00003",
+            "completion": "0.000135"
+          }
+        ]
+      }
     },
     {
       "id": "gpt-5.5",
@@ -339,13 +586,190 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.0000005",
-        "input_cache_read": "0",
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "input_cache_read": "0.00000025",
         "input_cache_write": "0",
+        "input_cache_write_1h": "0",
         "image": "0",
+        "image_output": "0",
         "request": "0",
-        "audio": "0"
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000005",
+            "completion": "0.0000225",
+            "input_cache_read": "0.0000005"
+          }
+        ]
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2025-12-01",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "agenticgamedev",
+            "elo": 1180,
+            "win_rate": 51.4,
+            "rank": 12
+          },
+          {
+            "arena": "agents",
+            "category": "agentichtmlslides",
+            "elo": 1084,
+            "win_rate": 34.2,
+            "rank": 9
+          },
+          {
+            "arena": "agents",
+            "category": "agenticslides",
+            "elo": 1150,
+            "win_rate": 43.5,
+            "rank": 7
+          },
+          {
+            "arena": "agents",
+            "category": "agenticslides(html)",
+            "elo": 1077,
+            "win_rate": 33.2,
+            "rank": 9
+          },
+          {
+            "arena": "agents",
+            "category": "agenticslides(python-pptx)",
+            "elo": 1155,
+            "win_rate": 45.2,
+            "rank": 7
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1197,
+            "win_rate": 50.8,
+            "rank": 18
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1123,
+            "win_rate": 43,
+            "rank": 25
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1213,
+            "win_rate": 52.4,
+            "rank": 10
+          },
+          {
+            "arena": "agents",
+            "category": "htmlslides",
+            "elo": 1084,
+            "win_rate": 34.2,
+            "rank": 19
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1203,
+            "win_rate": 51.6,
+            "rank": 19
+          },
+          {
+            "arena": "agents",
+            "category": "pptxslides",
+            "elo": 1157,
+            "win_rate": 45.3,
+            "rank": 7
+          },
+          {
+            "arena": "agents",
+            "category": "python-pptxslides",
+            "elo": 1152,
+            "win_rate": 43.3,
+            "rank": 16
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1158,
+            "win_rate": 42.7,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1250,
+            "win_rate": 52,
+            "rank": 35
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1285,
+            "win_rate": 60.8,
+            "rank": 10
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1279,
+            "win_rate": 55.3,
+            "rank": 23
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1282,
+            "win_rate": 56.7,
+            "rank": 17
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1337,
+            "win_rate": 59.5,
+            "rank": 7
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1268,
+            "win_rate": 57.4,
+            "rank": 6
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1285,
+            "win_rate": 55.7,
+            "rank": 24
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1268,
+            "win_rate": 54.5,
+            "rank": 26
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 56.3,
+          "coding_index": 74.9,
+          "agentic_index": 47.4
+        }
       }
     },
     {
@@ -388,7 +812,28 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": false
+      },
+      "pricing": {
+        "prompt": "0.000008",
+        "completion": "0.000015",
+        "input_cache_read": "0.000002",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0.00003",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      }
     },
     {
       "id": "gpt-5.4-nano",
@@ -426,7 +871,37 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": null
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": false
+      },
+      "knowledge_cutoff": "2025-08-31",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 39.7,
+          "coding_index": 56.1,
+          "agentic_index": 29.7
+        }
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.000000625",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      }
     },
     {
       "id": "gpt-5.4-mini",
@@ -466,13 +941,34 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.000000075",
-        "input_cache_read": "0",
+        "prompt": "0.000000375",
+        "completion": "0.00000225",
+        "input_cache_read": "0.0000000375",
         "input_cache_write": "0",
+        "input_cache_write_1h": "0",
         "image": "0",
+        "image_output": "0",
         "request": "0",
-        "audio": "0"
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": false
+      },
+      "knowledge_cutoff": "2025-08-31",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 40.9,
+          "coding_index": 56.1,
+          "agentic_index": 31.5
+        }
       }
     },
     {
@@ -513,13 +1009,31 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.00000025",
+        "prompt": "0.000015",
+        "completion": "0.00009",
+        "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.00003",
+            "completion": "0.000135"
+          }
+        ]
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["xhigh", "high", "medium"],
+        "default_effort": "medium"
       }
     },
     {
@@ -560,13 +1074,133 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.00000025",
+        "prompt": "0.00000125",
+        "completion": "0.0000075",
+        "input_cache_read": "0.000000125",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000025",
+            "completion": "0.00001125",
+            "input_cache_read": "0.00000025"
+          }
+        ]
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium",
+        "default_enabled": false
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1155,
+            "win_rate": 42.4,
+            "rank": 65
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1232,
+            "win_rate": 55.5,
+            "rank": 17
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1231,
+            "win_rate": 52.5,
+            "rank": 39
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1258,
+            "win_rate": 56.6,
+            "rank": 27
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1277,
+            "win_rate": 57.6,
+            "rank": 26
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1231,
+            "win_rate": 57.9,
+            "rank": 17
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1268,
+            "win_rate": 57.5,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1231,
+            "win_rate": 52.5,
+            "rank": 42
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1069,
+            "win_rate": 47.4,
+            "rank": 35
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1054,
+            "win_rate": 40.8,
+            "rank": 35
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1135,
+            "win_rate": 46.9,
+            "rank": 22
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1139,
+            "win_rate": 46,
+            "rank": 33
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1100,
+            "win_rate": 39.3,
+            "rank": 32
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 53.1,
+          "coding_index": 71.1,
+          "agentic_index": 44.2
+        }
       }
     },
     {
@@ -608,13 +1242,119 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.00000175",
+        "completion": "0.000014",
+        "input_cache_read": "0.000000175",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1084,
+            "win_rate": 35.2,
+            "rank": 33
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1019,
+            "win_rate": 36.4,
+            "rank": 38
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1124,
+            "win_rate": 45.1,
+            "rank": 24
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1106,
+            "win_rate": 41.4,
+            "rank": 36
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1076,
+            "win_rate": 36.1,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1061,
+            "win_rate": 35.3,
+            "rank": 91
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1183,
+            "win_rate": 51.2,
+            "rank": 30
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1164,
+            "win_rate": 47.3,
+            "rank": 66
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1187,
+            "win_rate": 50.6,
+            "rank": 57
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1200,
+            "win_rate": 51.3,
+            "rank": 52
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1164,
+            "win_rate": 53.9,
+            "rank": 42
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1172,
+            "win_rate": 48.3,
+            "rank": 64
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1174,
+            "win_rate": 48.5,
+            "rank": 66
+          }
+        ]
       }
     },
     {
@@ -649,13 +1389,19 @@
       },
       "expiration_date": "2026-08-10",
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.00000175",
+        "completion": "0.000014",
+        "input_cache_read": "0.000000175",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
       }
     },
     {
@@ -693,13 +1439,24 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.0000105",
+        "completion": "0.000084",
+        "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["xhigh", "high", "medium"],
+        "default_effort": "medium"
       }
     },
     {
@@ -740,13 +1497,119 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.000000875",
+        "completion": "0.000007",
+        "input_cache_read": "0.0000000875",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
+        "default_effort": "medium"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1206,
+            "win_rate": 54.4,
+            "rank": 48
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1097,
+            "win_rate": 49.1,
+            "rank": 30
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1079,
+            "win_rate": 44.1,
+            "rank": 32
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1142,
+            "win_rate": 48.1,
+            "rank": 19
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1145,
+            "win_rate": 46.6,
+            "rank": 28
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1117,
+            "win_rate": 43.8,
+            "rank": 29
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1132,
+            "win_rate": 41.5,
+            "rank": 77
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1189,
+            "win_rate": 49.5,
+            "rank": 57
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1224,
+            "win_rate": 56.1,
+            "rank": 43
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1233,
+            "win_rate": 56,
+            "rank": 41
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1217,
+            "win_rate": 51.3,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1185,
+            "win_rate": 50.7,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1171,
+            "win_rate": 52.6,
+            "rank": 39
+          }
+        ]
       }
     },
     {
@@ -787,13 +1650,97 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.000000625",
+        "completion": "0.000005",
+        "input_cache_read": "0.0000000625",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["high", "medium", "low", "none"],
+        "default_effort": "none",
+        "default_enabled": true
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1032,
+            "win_rate": 39.9,
+            "rank": 36
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1113,
+            "win_rate": 43.7,
+            "rank": 83
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1151,
+            "win_rate": 48.6,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1190,
+            "win_rate": 52.9,
+            "rank": 56
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1228,
+            "win_rate": 58.1,
+            "rank": 41
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1217,
+            "win_rate": 55.9,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1185,
+            "win_rate": 56.3,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1196,
+            "win_rate": 53.4,
+            "rank": 53
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1198,
+            "win_rate": 53.9,
+            "rank": 56
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 37.5,
+          "coding_index": 49.4,
+          "agentic_index": 21.6
+        }
       }
     },
     {
@@ -836,13 +1783,47 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008",
-        "image": "0.0000025",
-        "request": "0",
-        "input_cache_read": "0.0000002",
+        "prompt": "0.0000025",
+        "completion": "0.000002",
+        "input_cache_read": "0.00000025",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0.000008",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "graphicdesign",
+            "elo": 1190,
+            "win_rate": 47.7,
+            "rank": 9
+          },
+          {
+            "arena": "models",
+            "category": "image",
+            "elo": 1203,
+            "win_rate": 51,
+            "rank": 9
+          },
+          {
+            "arena": "models",
+            "category": "logo",
+            "elo": 1221,
+            "win_rate": 51.4,
+            "rank": 6
+          }
+        ]
       }
     },
     {
@@ -885,13 +1866,47 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000005",
+        "prompt": "0.00001",
         "completion": "0.00001",
-        "image": "0.000008",
-        "request": "0",
         "input_cache_read": "0.00000125",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0.00004",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "graphicdesign",
+            "elo": 1197,
+            "win_rate": 48.9,
+            "rank": 7
+          },
+          {
+            "arena": "models",
+            "category": "image",
+            "elo": 1211,
+            "win_rate": 53.9,
+            "rank": 7
+          },
+          {
+            "arena": "models",
+            "category": "logo",
+            "elo": 1214,
+            "win_rate": 52.7,
+            "rank": 7
+          }
+        ]
       }
     },
     {
@@ -929,14 +1944,26 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.0000075",
+        "completion": "0.00006",
+        "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["high"],
+        "default_effort": "high"
+      },
+      "knowledge_cutoff": "2024-09-30"
     },
     {
       "id": "gpt-5",
@@ -976,13 +2003,90 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000125",
+        "prompt": "0.000000625",
+        "completion": "0.000005",
+        "input_cache_read": "0.0000000625",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["high", "medium", "low", "minimal"],
+        "default_effort": "medium"
+      },
+      "knowledge_cutoff": "2024-09-30",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1109,
+            "win_rate": 41.5,
+            "rank": 85
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1173,
+            "win_rate": 49,
+            "rank": 33
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1187,
+            "win_rate": 54.4,
+            "rank": 58
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1244,
+            "win_rate": 60.6,
+            "rank": 35
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1223,
+            "win_rate": 59.4,
+            "rank": 43
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1219,
+            "win_rate": 62.3,
+            "rank": 19
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1208,
+            "win_rate": 57.3,
+            "rank": 47
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1195,
+            "win_rate": 53.5,
+            "rank": 57
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 35.3,
+          "coding_index": 37.8,
+          "agentic_index": 26.5
+        }
       }
     },
     {
@@ -1023,13 +2127,90 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000002",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000025",
+        "prompt": "0.000000125",
+        "completion": "0.000001",
+        "input_cache_read": "0.0000000125",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["high", "medium", "low", "minimal"],
+        "default_effort": "medium"
+      },
+      "knowledge_cutoff": "2024-05-31",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1090,
+            "win_rate": 36.9,
+            "rank": 87
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1154,
+            "win_rate": 44.5,
+            "rank": 43
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1134,
+            "win_rate": 43.4,
+            "rank": 80
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1153,
+            "win_rate": 43.8,
+            "rank": 71
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1168,
+            "win_rate": 46.5,
+            "rank": 67
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1122,
+            "win_rate": 45,
+            "rank": 50
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1135,
+            "win_rate": 42,
+            "rank": 71
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1136,
+            "win_rate": 44.2,
+            "rank": 80
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 25.8,
+          "coding_index": 15.6,
+          "agentic_index": 19.6
+        }
       }
     },
     {
@@ -1070,13 +2251,71 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000002",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000025",
+        "prompt": "0.000000025",
+        "completion": "0.0000002",
+        "input_cache_read": "0.0000000025",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["high", "medium", "low", "minimal"],
+        "default_effort": "medium"
+      },
+      "knowledge_cutoff": "2024-05-31",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1019,
+            "win_rate": 36.3,
+            "rank": 100
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1103,
+            "win_rate": 48,
+            "rank": 87
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1078,
+            "win_rate": 46.2,
+            "rank": 91
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1083,
+            "win_rate": 46.5,
+            "rank": 92
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1095,
+            "win_rate": 51.9,
+            "rank": 85
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1112,
+            "win_rate": 48.9,
+            "rank": 90
+          }
+        ]
       }
     },
     {
@@ -1113,14 +2352,24 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00002",
-        "completion": "0.00008",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000005",
+        "prompt": "0.00001",
+        "completion": "0.00004",
+        "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2024-06-30"
     },
     {
       "id": "o3",
@@ -1152,13 +2401,62 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000005",
+        "prompt": "0.000001",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000025",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2024-06-30",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1039,
+            "win_rate": 51.9,
+            "rank": 101
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1200,
+            "win_rate": 48.1,
+            "rank": 49
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1073,
+            "win_rate": 56.9,
+            "rank": 94
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1045,
+            "win_rate": 53.3,
+            "rank": 93
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1047,
+            "win_rate": 53.8,
+            "rank": 104
+          }
+        ]
       }
     },
     {
@@ -1191,13 +2489,66 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000005",
+        "prompt": "0.000001",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000025",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-06-30",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 903,
+            "win_rate": 30.9,
+            "rank": 108
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1045,
+            "win_rate": 50.9,
+            "rank": 100
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1125,
+            "win_rate": 59.5,
+            "rank": 80
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1118,
+            "win_rate": 59.1,
+            "rank": 84
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1029,
+            "win_rate": 49.7,
+            "rank": 97
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1050,
+            "win_rate": 52.3,
+            "rank": 103
+          }
+        ]
       }
     },
     {
@@ -1230,13 +2581,71 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000016",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.0000001",
+        "prompt": "0.0000002",
+        "completion": "0.0000008",
+        "input_cache_read": "0.00000005",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-06-30",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 890,
+            "win_rate": 30.5,
+            "rank": 109
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1013,
+            "win_rate": 47.5,
+            "rank": 107
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1055,
+            "win_rate": 49.2,
+            "rank": 96
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1109,
+            "win_rate": 58.5,
+            "rank": 87
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 990,
+            "win_rate": 45.4,
+            "rank": 101
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1008,
+            "win_rate": 47.8,
+            "rank": 111
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 14.8,
+          "coding_index": 20.2,
+          "agentic_index": 1.8
+        }
       }
     },
     {
@@ -1279,12 +2688,19 @@
       "pricing": {
         "prompt": "0.0000025",
         "completion": "0.00001",
-        "image": "0",
-        "request": "0",
         "input_cache_read": "0.00000125",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31"
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -1327,12 +2743,19 @@
       "pricing": {
         "prompt": "0.0000025",
         "completion": "0.00001",
-        "image": "0",
-        "request": "0",
         "input_cache_read": "0.00000125",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31"
     },
     {
       "id": "gpt-4o-mini",
@@ -1372,13 +2795,28 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.000000075",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000375",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": null,
+          "coding_index": 11.4,
+          "agentic_index": 1
+        }
       }
     },
     {
@@ -1421,12 +2859,19 @@
       "pricing": {
         "prompt": "0.00000015",
         "completion": "0.0000006",
-        "image": "0",
-        "request": "0",
         "input_cache_read": "0.000000075",
         "input_cache_write": "0",
-        "audio": "0"
-      }
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31"
     },
     {
       "id": "gpt-4o",
@@ -1466,13 +2911,66 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.00000125",
+        "prompt": "0.00000125",
+        "completion": "0.000005",
+        "input_cache_read": "0.000000625",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2023-10-31",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 922,
+            "win_rate": 39.2,
+            "rank": 105
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 880,
+            "win_rate": 34.8,
+            "rank": 117
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 878,
+            "win_rate": 36,
+            "rank": 115
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 945,
+            "win_rate": 42.3,
+            "rank": 114
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 914,
+            "win_rate": 38.1,
+            "rank": 110
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 842,
+            "win_rate": 31.5,
+            "rank": 125
+          }
+        ]
       }
     }
   ]
