@@ -41,7 +41,8 @@
         "mandatory": true,
         "supported_efforts": ["xhigh", "high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -201,7 +202,8 @@
         "mandatory": true,
         "supported_efforts": ["high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -392,7 +394,8 @@
       },
       "expiration_date": null,
       "reasoning": {
-        "mandatory": true
+        "mandatory": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [],
@@ -474,7 +477,8 @@
         "mandatory": false,
         "supported_efforts": ["high", "medium", "low", "none"],
         "default_effort": "low",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -699,7 +703,8 @@
         "mandatory": true,
         "supported_efforts": ["xhigh", "high", "medium", "low"],
         "default_effort": "medium",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "knowledge_cutoff": "2025-09-01",
       "pricing": {
@@ -768,7 +773,8 @@
       "expiration_date": null,
       "reasoning": {
         "mandatory": false,
-        "default_enabled": false
+        "default_enabled": false,
+        "supports_max_tokens": false
       },
       "knowledge_cutoff": "2025-09-01",
       "benchmarks": {

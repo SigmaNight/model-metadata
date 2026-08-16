@@ -19,12 +19,14 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
+        "temperature",
         "tool_choice",
         "tools",
         "verbosity"
@@ -39,11 +41,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -57,7 +59,8 @@
         "mandatory": false,
         "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -151,6 +154,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -171,11 +175,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000005",
-        "input_cache_read": "0.0000001",
-        "input_cache_write": "0.00000125",
-        "input_cache_write_1h": "0.000002",
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
+        "input_cache_write_1h": "0.000004",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -189,7 +193,8 @@
         "mandatory": false,
         "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": true
+        "default_enabled": true,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -332,6 +337,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -354,7 +360,8 @@
       "reasoning": {
         "mandatory": true,
         "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
-        "default_effort": "high"
+        "default_effort": "high",
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -492,11 +499,11 @@
         }
       },
       "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.000025",
-        "input_cache_read": "0.0000005",
-        "input_cache_write": "0.00000625",
-        "input_cache_write_1h": "0.00001",
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "input_cache_read": "0.000001",
+        "input_cache_write": "0.0000125",
+        "input_cache_write_1h": "0.00002",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -526,12 +533,14 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
+        "temperature",
         "tool_choice",
         "tools",
         "verbosity"
@@ -546,11 +555,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -564,7 +573,8 @@
         "mandatory": false,
         "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": false
+        "default_enabled": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -742,6 +752,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -762,11 +773,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -780,7 +791,8 @@
         "mandatory": false,
         "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
         "default_effort": "high",
-        "default_enabled": false
+        "default_enabled": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -951,6 +963,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -960,6 +973,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_p",
         "verbosity"
       ],
@@ -973,11 +987,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "input_cache_read": "0.00000015",
-        "input_cache_write": "0.000001875",
-        "input_cache_write_1h": "0.000003",
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "input_cache_write_1h": "0.000006",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -990,7 +1004,8 @@
       "reasoning": {
         "mandatory": false,
         "supported_efforts": ["max", "high", "medium", "low"],
-        "default_effort": "medium"
+        "default_effort": "medium",
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -1119,6 +1134,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "reasoning_effort",
@@ -1128,6 +1144,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_p",
         "verbosity"
       ],
@@ -1141,11 +1158,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1270,6 +1287,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1278,6 +1296,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "verbosity"
       ],
       "default_parameters": {
@@ -1290,11 +1309,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1305,7 +1324,8 @@
         "internal_reasoning": "0"
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -1415,6 +1435,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1423,6 +1444,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "verbosity"
       ],
       "default_parameters": {
@@ -1435,11 +1457,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
-        "input_cache_write_1h": "0.000005",
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625",
+        "input_cache_write_1h": "0.00001",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1450,7 +1472,8 @@
         "internal_reasoning": "0"
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -1560,6 +1583,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1581,11 +1605,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000005",
-        "input_cache_write": "0.000000625",
-        "input_cache_write_1h": "0.000001",
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
+        "input_cache_write_1h": "0.000002",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1596,7 +1620,8 @@
         "internal_reasoning": "0"
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -1683,6 +1708,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1704,11 +1730,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000005",
-        "input_cache_write": "0.000000625",
-        "input_cache_write_1h": "0.000001",
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
+        "input_cache_write_1h": "0.000002",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1719,7 +1745,8 @@
         "internal_reasoning": "0"
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [
@@ -1806,6 +1833,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1827,11 +1855,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "input_cache_read": "0.00000015",
-        "input_cache_write": "0.000001875",
-        "input_cache_write_1h": "0.000003",
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "input_cache_write_1h": "0.000006",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1843,16 +1871,17 @@
         "overrides": [
           {
             "min_prompt_tokens": 200000,
-            "prompt": "0.000003",
-            "completion": "0.00001125",
-            "input_cache_read": "0.0000003",
-            "input_cache_write": "0.00000375",
-            "input_cache_write_1h": "0.000006"
+            "prompt": "0.000006",
+            "completion": "0.0000225",
+            "input_cache_read": "0.0000006",
+            "input_cache_write": "0.0000075",
+            "input_cache_write_1h": "0.000012"
           }
         ]
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "knowledge_cutoff": "2025-01-31",
       "benchmarks": {
@@ -1961,6 +1990,7 @@
       },
       "supported_parameters": [
         "include_reasoning",
+        "max_completion_tokens",
         "max_tokens",
         "reasoning",
         "response_format",
@@ -1982,11 +2012,11 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "input_cache_read": "0.00000015",
-        "input_cache_write": "0.000001875",
-        "input_cache_write_1h": "0.000003",
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000003",
+        "input_cache_write": "0.00000375",
+        "input_cache_write_1h": "0.000006",
         "image": "0",
         "image_output": "0",
         "request": "0",
@@ -1998,16 +2028,17 @@
         "overrides": [
           {
             "min_prompt_tokens": 200000,
-            "prompt": "0.000003",
-            "completion": "0.00001125",
-            "input_cache_read": "0.0000003",
-            "input_cache_write": "0.00000375",
-            "input_cache_write_1h": "0.000006"
+            "prompt": "0.000006",
+            "completion": "0.0000225",
+            "input_cache_read": "0.0000006",
+            "input_cache_write": "0.0000075",
+            "input_cache_write_1h": "0.000012"
           }
         ]
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "supports_max_tokens": false
       },
       "knowledge_cutoff": "2025-01-31",
       "benchmarks": {

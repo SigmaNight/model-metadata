@@ -45,7 +45,8 @@
       "reasoning": {
         "mandatory": false,
         "supported_efforts": ["high", "none"],
-        "default_effort": "high"
+        "default_effort": "high",
+        "supports_max_tokens": false
       },
       "benchmarks": {
         "design_arena": [],
@@ -118,7 +119,8 @@
         "mandatory": false,
         "supported_efforts": ["high", "none"],
         "default_effort": "high",
-        "default_enabled": false
+        "default_enabled": false,
+        "supports_max_tokens": false
       },
       "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
       "benchmarks": {
