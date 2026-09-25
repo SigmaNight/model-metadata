@@ -1,8 +1,73 @@
 {
   "models": [
     {
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "created": 1787311563,
+      "description": "Provided by OpenRouter: DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of DeepSeek V4 Flash 0731 (opens in new tab) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents, reasoning, and world knowledge. It is a sparse mixture-of-experts model with 13B active parameters out of 284B total.",
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": ["text", "image"],
+        "output_modalities": ["text"],
+        "tokenizer": "DeepSeek",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 163840,
+        "max_completion_tokens": 943718,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["max", "high", "low"],
+        "default_effort": "high",
+        "default_enabled": true,
+        "supports_max_tokens": false
+      },
+      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "pricing": {
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
+        "input_cache_read": "0.000000007",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      }
+    },
+    {
       "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
+      "name": "DeepSeek V4 Pro 0423",
       "created": 1777000679,
       "description": "Provided by OpenRouter: DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding, and long-horizon agent workflows, with strong performance across knowledge, math, and software engineering benchmarks.",
       "architecture": {
@@ -22,6 +87,7 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
+        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -41,26 +107,121 @@
       ],
       "default_parameters": {
         "temperature": 1,
-        "top_p": 1,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
+        "top_p": 1
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0",
+        "prompt": "0.000000733236",
+        "completion": "0.000001466472",
+        "input_cache_read": "0.000000061103",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high"],
+        "default_effort": "high",
+        "supports_max_tokens": false
+      },
+      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Pro",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 948,
+            "win_rate": 22.1,
+            "rank": 43
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1059,
+            "win_rate": 34,
+            "rank": 32
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1000,
+            "win_rate": 26.4,
+            "rank": 41
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1280,
+            "win_rate": 56.8,
+            "rank": 23
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1161,
+            "win_rate": 46.4,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1249,
+            "win_rate": 51.9,
+            "rank": 36
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1214,
+            "win_rate": 48.7,
+            "rank": 48
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1244,
+            "win_rate": 52.3,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1151,
+            "win_rate": 45.4,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1233,
+            "win_rate": 50.6,
+            "rank": 42
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1243,
+            "win_rate": 50.5,
+            "rank": 41
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 30.4,
+          "coding_index": 59.4,
+          "agentic_index": 26.3
+        }
       }
     },
     {
       "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4 Flash 0423",
       "created": 1777000666,
       "description": "Provided by OpenRouter: DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and high-throughput workloads, while maintaining strong reasoning and coding performance.",
       "architecture": {
@@ -80,6 +241,7 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
+        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -93,6 +255,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_a",
         "top_k",
         "top_logprobs",
         "top_p"
@@ -107,13 +270,163 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0",
-        "completion": "0",
+        "prompt": "0.00000004844",
+        "completion": "0.00000009688",
+        "input_cache_read": "0.000000009688",
+        "input_cache_write": "0",
+        "input_cache_write_1h": "0",
         "image": "0",
+        "image_output": "0",
         "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": ["xhigh", "high"],
+        "default_effort": "high",
+        "supports_max_tokens": false
+      },
+      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1214,
+            "win_rate": 49.3,
+            "rank": 45
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1123,
+            "win_rate": 42.8,
+            "rank": 53
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1214,
+            "win_rate": 48.9,
+            "rank": 48
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1138,
+            "win_rate": 40.7,
+            "rank": 81
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1212,
+            "win_rate": 50.2,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1166,
+            "win_rate": 48.4,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1175,
+            "win_rate": 44.7,
+            "rank": 63
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1215,
+            "win_rate": 49.1,
+            "rank": 50
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 24.2,
+          "coding_index": 56.2,
+          "agentic_index": 22.2
+        }
+      }
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek R1",
+      "created": 1737381095,
+      "description": "Provided by OpenRouter: DeepSeek R1 is here: Performance on par with OpenAI o1, but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass. Fully open-source model & technical report. MIT licensed: Distill & commercialize freely!",
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["text"],
+        "output_modalities": ["text"],
+        "tokenizer": "DeepSeek",
+        "instruct_type": "deepseek-r1"
+      },
+      "top_provider": {
+        "context_length": 163840,
+        "max_completion_tokens": 16000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "expiration_date": null,
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000025",
         "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supports_max_tokens": false
+      },
+      "knowledge_cutoff": "2024-07-31",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 11.4,
+          "coding_index": 24.6,
+          "agentic_index": 1.1
+        }
       }
     },
     {
@@ -153,18 +466,79 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000027",
-        "completion": "0.0000011",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.00000007",
+        "prompt": "0.00000032",
+        "completion": "0.00000089",
+        "input_cache_read": "0",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
+      },
+      "knowledge_cutoff": "2024-07-31",
+      "hugging_face_id": "deepseek-ai/DeepSeek-V3",
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1113,
+            "win_rate": 50.5,
+            "rank": 80
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1117,
+            "win_rate": 48.4,
+            "rank": 90
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1099,
+            "win_rate": 50,
+            "rank": 93
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1069,
+            "win_rate": 43.7,
+            "rank": 95
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 987,
+            "win_rate": 38.8,
+            "rank": 84
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1104,
+            "win_rate": 52.7,
+            "rank": 86
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1128,
+            "win_rate": 48.5,
+            "rank": 90
+          }
+        ]
       }
     },
     {
-      "id": "deepseek-reasoner",
-      "name": "Deepseek Reasoner",
+      "id": "deepseek-flash",
+      "name": "DeepSeek Flash",
       "created": 0,
       "description": "",
       "architecture": {
@@ -183,13 +557,19 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000055",
-        "completion": "0.00000219",
-        "image": "0",
-        "request": "0",
-        "input_cache_read": "0.00000014",
+        "prompt": "0.000000006",
+        "completion": "0.00000015",
+        "input_cache_read": "0.000000003",
         "input_cache_write": "0",
-        "audio": "0"
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0",
+        "internal_reasoning": "0"
       }
     }
   ]
