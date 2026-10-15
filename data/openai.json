@@ -161,7 +161,50 @@
         "supports_max_tokens": false
       },
       "benchmarks": {
-        "design_arena": [],
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1460,
+            "win_rate": 70.9,
+            "rank": 2
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1346,
+            "win_rate": 58.2,
+            "rank": 6
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1321,
+            "win_rate": 57.4,
+            "rank": 11
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1378,
+            "win_rate": 61.7,
+            "rank": 5
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1342,
+            "win_rate": 57.6,
+            "rank": 7
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1323,
+            "win_rate": 55.9,
+            "rank": 7
+          }
+        ],
         "artificial_analysis": {
           "intelligence_index": 51.8,
           "coding_index": null,
@@ -580,7 +623,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "supported_parameters": [
         "include_reasoning",
@@ -981,10 +1024,10 @@
       },
       "knowledge_cutoff": "2026-02-16",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
-        "input_cache_read": "0.0000002",
-        "input_cache_write": "0.0000025",
+        "prompt": "0.000004",
+        "completion": "0.00002",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
         "input_cache_write_1h": "0",
         "image": "0",
         "image_output": "0",
@@ -997,10 +1040,10 @@
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000004",
-            "completion": "0.000015",
-            "input_cache_read": "0.0000004",
-            "input_cache_write": "0.000005"
+            "prompt": "0.000008",
+            "completion": "0.00003",
+            "input_cache_read": "0.0000008",
+            "input_cache_write": "0.00001"
           }
         ]
       }
@@ -1061,10 +1104,10 @@
         }
       },
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
-        "input_cache_read": "0.0000002",
-        "input_cache_write": "0.0000025",
+        "prompt": "0.000004",
+        "completion": "0.00002",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
         "input_cache_write_1h": "0",
         "image": "0",
         "image_output": "0",
@@ -1077,10 +1120,10 @@
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000004",
-            "completion": "0.000015",
-            "input_cache_read": "0.0000004",
-            "input_cache_write": "0.000005"
+            "prompt": "0.000008",
+            "completion": "0.00003",
+            "input_cache_read": "0.0000008",
+            "input_cache_write": "0.00001"
           }
         ]
       }
@@ -1263,14 +1306,14 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1177,
+            "elo": 1178,
             "win_rate": 50.9,
             "rank": 19
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1088,
+            "elo": 1089,
             "win_rate": 43,
             "rank": 29
           },
@@ -1314,63 +1357,63 @@
             "category": "webapps",
             "elo": 1110,
             "win_rate": 42.6,
-            "rank": 32
+            "rank": 33
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1205,
-            "win_rate": 49.8,
-            "rank": 42
+            "elo": 1198,
+            "win_rate": 49.4,
+            "rank": 49
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1264,
-            "win_rate": 58.3,
-            "rank": 17
+            "elo": 1258,
+            "win_rate": 58.4,
+            "rank": 14
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1264,
-            "win_rate": 53.6,
-            "rank": 29
+            "elo": 1262,
+            "win_rate": 53.1,
+            "rank": 35
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1272,
-            "win_rate": 56,
-            "rank": 23
+            "elo": 1264,
+            "win_rate": 55.7,
+            "rank": 27
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1307,
-            "win_rate": 58,
-            "rank": 13
+            "elo": 1297,
+            "win_rate": 57.2,
+            "rank": 20
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1234,
-            "win_rate": 55.4,
+            "elo": 1233,
+            "win_rate": 55.2,
             "rank": 16
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1265,
-            "win_rate": 53.6,
-            "rank": 32
+            "elo": 1258,
+            "win_rate": 53.2,
+            "rank": 37
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1263,
-            "win_rate": 52.8,
-            "rank": 33
+            "elo": 1258,
+            "win_rate": 52.3,
+            "rank": 39
           }
         ],
         "artificial_analysis": {
@@ -1654,58 +1697,58 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1109,
+            "elo": 1102,
             "win_rate": 42.3,
-            "rank": 79
+            "rank": 86
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1210,
+            "elo": 1202,
             "win_rate": 55.4,
             "rank": 23
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1217,
+            "elo": 1214,
             "win_rate": 52.5,
-            "rank": 47
+            "rank": 54
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1243,
+            "elo": 1236,
             "win_rate": 56.6,
-            "rank": 34
+            "rank": 39
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1251,
+            "elo": 1242,
             "win_rate": 57.6,
-            "rank": 33
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1194,
-            "win_rate": 57.8,
-            "rank": 26
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1245,
-            "win_rate": 57.4,
             "rank": 38
           },
           {
             "arena": "models",
+            "category": "svg",
+            "elo": 1193,
+            "win_rate": 57.8,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1239,
+            "win_rate": 57.4,
+            "rank": 42
+          },
+          {
+            "arena": "models",
             "category": "website",
-            "elo": 1226,
+            "elo": 1221,
             "win_rate": 52.5,
-            "rank": 50
+            "rank": 56
           },
           {
             "arena": "agents",
@@ -1717,7 +1760,7 @@
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1016,
+            "elo": 1017,
             "win_rate": 40.9,
             "rank": 39
           },
@@ -1740,7 +1783,7 @@
             "category": "webapps",
             "elo": 1052,
             "win_rate": 40.3,
-            "rank": 37
+            "rank": 38
           }
         ],
         "artificial_analysis": {
@@ -1920,9 +1963,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1201,
+            "elo": 1196,
             "win_rate": 54.4,
-            "rank": 56
+            "rank": 63
           },
           {
             "arena": "agents",
@@ -1934,7 +1977,7 @@
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1041,
+            "elo": 1043,
             "win_rate": 44.3,
             "rank": 37
           },
@@ -1950,63 +1993,63 @@
             "category": "mobileapps",
             "elo": 1091,
             "win_rate": 46.8,
-            "rank": 37
+            "rank": 38
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1079,
             "win_rate": 45.5,
-            "rank": 35
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1087,
-            "win_rate": 41.5,
-            "rank": 87
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1175,
-            "win_rate": 49.6,
-            "rank": 65
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1209,
-            "win_rate": 56.1,
-            "rank": 51
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1208,
-            "win_rate": 56,
-            "rank": 47
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1197,
-            "win_rate": 51.3,
-            "rank": 55
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1163,
-            "win_rate": 50.7,
             "rank": 36
           },
           {
             "arena": "models",
+            "category": "3d",
+            "elo": 1079,
+            "win_rate": 41.5,
+            "rank": 94
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1171,
+            "win_rate": 49.8,
+            "rank": 72
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1202,
+            "win_rate": 56.1,
+            "rank": 57
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1198,
+            "win_rate": 56,
+            "rank": 54
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1190,
+            "win_rate": 51.3,
+            "rank": 61
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1155,
+            "win_rate": 50.7,
+            "rank": 40
+          },
+          {
+            "arena": "models",
             "category": "svg",
-            "elo": 1138,
+            "elo": 1137,
             "win_rate": 53.7,
-            "rank": 50
+            "rank": 51
           }
         ],
         "artificial_analysis": {
@@ -2076,21 +2119,21 @@
           {
             "arena": "models",
             "category": "graphicdesign",
-            "elo": 1168,
+            "elo": 1165,
             "win_rate": 47.7,
             "rank": 11
           },
           {
             "arena": "models",
             "category": "image",
-            "elo": 1182,
+            "elo": 1184,
             "win_rate": 51,
             "rank": 11
           },
           {
             "arena": "models",
             "category": "logo",
-            "elo": 1210,
+            "elo": 1208,
             "win_rate": 51.4,
             "rank": 8
           }
@@ -2157,21 +2200,21 @@
           {
             "arena": "models",
             "category": "graphicdesign",
-            "elo": 1175,
+            "elo": 1172,
             "win_rate": 48.9,
-            "rank": 8
+            "rank": 9
           },
           {
             "arena": "models",
             "category": "image",
-            "elo": 1190,
+            "elo": 1191,
             "win_rate": 53.9,
             "rank": 9
           },
           {
             "arena": "models",
             "category": "logo",
-            "elo": 1204,
+            "elo": 1202,
             "win_rate": 52.7,
             "rank": 9
           }
@@ -2302,58 +2345,58 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1063,
+            "elo": 1056,
             "win_rate": 41.3,
-            "rank": 94
+            "rank": 102
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1151,
+            "elo": 1143,
             "win_rate": 49,
-            "rank": 45
+            "rank": 47
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1172,
+            "elo": 1169,
             "win_rate": 54.5,
-            "rank": 66
+            "rank": 73
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1228,
+            "elo": 1223,
             "win_rate": 60.5,
-            "rank": 44
+            "rank": 49
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1198,
+            "elo": 1188,
             "win_rate": 59.3,
-            "rank": 51
+            "rank": 58
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1188,
             "win_rate": 64.1,
-            "rank": 29
+            "rank": 30
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1186,
+            "elo": 1179,
             "win_rate": 57.4,
-            "rank": 58
+            "rank": 63
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1191,
+            "elo": 1186,
             "win_rate": 53.7,
-            "rank": 64
+            "rank": 70
           }
         ],
         "artificial_analysis": {
@@ -2429,58 +2472,58 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1045,
+            "elo": 1038,
             "win_rate": 36.9,
-            "rank": 97
+            "rank": 104
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1134,
+            "elo": 1126,
             "win_rate": 44.7,
-            "rank": 52
+            "rank": 53
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1119,
+            "elo": 1117,
             "win_rate": 43.5,
-            "rank": 88
+            "rank": 95
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1137,
+            "elo": 1132,
             "win_rate": 43.7,
-            "rank": 82
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1142,
+            "elo": 1132,
             "win_rate": 46.5,
-            "rank": 76
+            "rank": 85
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1090,
+            "elo": 1089,
             "win_rate": 45.8,
-            "rank": 61
+            "rank": 62
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1113,
+            "elo": 1105,
             "win_rate": 41.9,
-            "rank": 83
+            "rank": 89
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1132,
+            "elo": 1127,
             "win_rate": 44.3,
-            "rank": 88
+            "rank": 95
           }
         ],
         "artificial_analysis": {
@@ -2556,44 +2599,44 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 973,
+            "elo": 966,
             "win_rate": 36.3,
-            "rank": 108
+            "rank": 115
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1088,
+            "elo": 1086,
             "win_rate": 48,
-            "rank": 96
+            "rank": 104
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1064,
+            "elo": 1057,
             "win_rate": 46.2,
-            "rank": 101
+            "rank": 106
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1057,
+            "elo": 1048,
             "win_rate": 46.5,
-            "rank": 100
+            "rank": 109
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1073,
+            "elo": 1066,
             "win_rate": 51.9,
-            "rank": 96
+            "rank": 101
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1108,
+            "elo": 1103,
             "win_rate": 48.9,
-            "rank": 97
+            "rank": 104
           }
         ],
         "artificial_analysis": {
@@ -2719,37 +2762,37 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1024,
+            "elo": 1021,
             "win_rate": 51.9,
-            "rank": 109
+            "rank": 119
           },
           {
             "arena": "models",
             "category": "dataviz",
             "elo": 1200,
             "win_rate": 48.1,
-            "rank": 54
+            "rank": 58
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1047,
+            "elo": 1038,
             "win_rate": 56.9,
-            "rank": 104
+            "rank": 111
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1023,
+            "elo": 1016,
             "win_rate": 53.3,
-            "rank": 106
+            "rank": 111
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1043,
+            "elo": 1038,
             "win_rate": 53.8,
-            "rank": 111
+            "rank": 118
           }
         ],
         "artificial_analysis": {
@@ -2757,545 +2800,6 @@
           "coding_index": null,
           "agentic_index": null
         }
-      }
-    },
-    {
-      "id": "gpt-4.1",
-      "name": "GPT-4.1",
-      "created": 1744651385,
-      "description": "Provided by OpenRouter: GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1047576,
-        "max_completion_tokens": 32768,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "max_completion_tokens",
-        "max_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008",
-        "input_cache_read": "0.0000005",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2024-06-30",
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 858,
-            "win_rate": 30.9,
-            "rank": 116
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1031,
-            "win_rate": 50.9,
-            "rank": 108
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1111,
-            "win_rate": 59.5,
-            "rank": 89
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1092,
-            "win_rate": 59.1,
-            "rank": 91
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1007,
-            "win_rate": 49.7,
-            "rank": 107
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1045,
-            "win_rate": 52.3,
-            "rank": 110
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 12.7,
-          "coding_index": null,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-4.1-mini",
-      "name": "GPT-4.1 Mini",
-      "created": 1744651381,
-      "description": "Provided by OpenRouter: GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard instruction evals, 35.8% on MultiChallenge, and 84.1% on IFEval. Mini also shows strong coding ability (e.g., 31.6% on Aider’s polyglot diff benchmark) and vision understanding, making it suitable for interactive applications with tight performance constraints.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1047576,
-        "max_completion_tokens": 32768,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "max_completion_tokens",
-        "max_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000016",
-        "input_cache_read": "0.0000001",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2024-06-30",
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 844,
-            "win_rate": 30.5,
-            "rank": 117
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 999,
-            "win_rate": 47.5,
-            "rank": 115
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1041,
-            "win_rate": 49.2,
-            "rank": 104
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1083,
-            "win_rate": 58.5,
-            "rank": 95
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 968,
-            "win_rate": 45.4,
-            "rank": 111
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1004,
-            "win_rate": 47.8,
-            "rank": 118
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 10.2,
-          "coding_index": 20.2,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-4o-2024-11-20",
-      "name": "GPT-4o (2024-11-20)",
-      "created": 1732127594,
-      "description": "Provided by OpenRouter: The 2024-11-20 version of GPT-4o offers a leveled-up creative writing ability with more natural, engaging, and tailored writing to improve relevance & readability. It’s also better at working with uploaded files, providing deeper insights & more thorough responses.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "prediction",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "input_cache_read": "0.00000125",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2023-10-31",
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 8.4,
-          "coding_index": null,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-4o-2024-08-06",
-      "name": "GPT-4o (2024-08-06)",
-      "created": 1722902400,
-      "description": "Provided by OpenRouter: The 2024-08-06 version of GPT-4o offers improved performance in structured outputs, with the ability to supply a JSON schema in the respone_format. Read more here. GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of GPT-4 Turbo while being twice as fast and 50% more cost-effective.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "prediction",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "input_cache_read": "0.00000125",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2023-10-31",
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 7.7,
-          "coding_index": null,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-4o-mini",
-      "name": "GPT-4o-mini",
-      "created": 1721260800,
-      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than GPT-3.5 Turbo. It maintains SOTA intelligence, while being significantly more cost-effective.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "prediction",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2023-10-31",
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 6.7,
-          "coding_index": 11.4,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-4o-mini-2024-07-18",
-      "name": "GPT-4o-mini (2024-07-18)",
-      "created": 1721260800,
-      "description": "Provided by OpenRouter: GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than GPT-3.5 Turbo. It maintains SOTA intelligence, while being significantly more cost-effective.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "prediction",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2023-10-31"
-    },
-    {
-      "id": "gpt-4o",
-      "name": "GPT-4o",
-      "created": 1715558400,
-      "description": "Provided by OpenRouter: GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of GPT-4 Turbo while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 64000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "prediction",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "input_cache_read": "0.00000125",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "knowledge_cutoff": "2023-10-31",
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 877,
-            "win_rate": 39.2,
-            "rank": 113
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 866,
-            "win_rate": 34.8,
-            "rank": 125
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 864,
-            "win_rate": 36,
-            "rank": 123
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 919,
-            "win_rate": 42.3,
-            "rank": 122
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 892,
-            "win_rate": 38.1,
-            "rank": 122
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 838,
-            "win_rate": 31.5,
-            "rank": 132
-          }
-        ]
       }
     }
   ]
