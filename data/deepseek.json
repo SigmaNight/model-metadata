@@ -43,7 +43,7 @@
       "expiration_date": null,
       "reasoning": {
         "mandatory": false,
-        "supported_efforts": ["max", "high", "low"],
+        "supported_efforts": ["max", "high", "low", "none"],
         "default_effort": "high",
         "default_enabled": true,
         "supports_max_tokens": false
@@ -67,7 +67,7 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 34.8,
+          "intelligence_index": null,
           "coding_index": 65,
           "agentic_index": 47.5
         }
@@ -119,9 +119,9 @@
       },
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.000000446136",
-        "completion": "0.000000892272",
-        "input_cache_read": "0.000000037178",
+        "prompt": "0.0000016",
+        "completion": "0.0000032",
+        "input_cache_read": "0.000000135",
         "input_cache_write": "0",
         "input_cache_write_1h": "0",
         "image": "0",
@@ -135,7 +135,7 @@
       },
       "reasoning": {
         "mandatory": false,
-        "supported_efforts": ["xhigh", "high"],
+        "supported_efforts": ["xhigh", "high", "none"],
         "default_effort": "high",
         "supports_max_tokens": false
       },
@@ -161,67 +161,67 @@
             "category": "webapps",
             "elo": 1000,
             "win_rate": 26.4,
-            "rank": 42
+            "rank": 45
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1254,
+            "elo": 1251,
             "win_rate": 56.8,
-            "rank": 30
+            "rank": 32
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1151,
+            "elo": 1146,
             "win_rate": 46.4,
-            "rank": 43
+            "rank": 45
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1242,
+            "elo": 1239,
             "win_rate": 51.9,
-            "rank": 44
+            "rank": 47
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1204,
+            "elo": 1203,
             "win_rate": 48.7,
-            "rank": 55
+            "rank": 59
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1232,
+            "elo": 1229,
             "win_rate": 52.3,
-            "rank": 41
+            "rank": 44
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1139,
+            "elo": 1136,
             "win_rate": 45.4,
-            "rank": 49
+            "rank": 56
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1221,
+            "elo": 1216,
             "win_rate": 50.6,
-            "rank": 50
+            "rank": 54
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1236,
+            "elo": 1233,
             "win_rate": 50.5,
-            "rank": 49
+            "rank": 52
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 30.4,
+          "intelligence_index": null,
           "coding_index": 59.4,
           "agentic_index": 26.3
         }
@@ -294,7 +294,7 @@
       },
       "reasoning": {
         "mandatory": false,
-        "supported_efforts": ["xhigh", "high"],
+        "supported_efforts": ["xhigh", "high", "none"],
         "default_effort": "high",
         "supports_max_tokens": false
       },
@@ -304,136 +304,64 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1189,
+            "elo": 1186,
             "win_rate": 49.3,
-            "rank": 54
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1113,
-            "win_rate": 42.8,
-            "rank": 57
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1207,
-            "win_rate": 48.9,
             "rank": 56
           },
           {
             "arena": "models",
+            "category": "asciiart",
+            "elo": 1107,
+            "win_rate": 42.7,
+            "rank": 59
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1204,
+            "win_rate": 48.9,
+            "rank": 63
+          },
+          {
+            "arena": "models",
             "category": "dataviz",
-            "elo": 1129,
+            "elo": 1127,
             "win_rate": 40.7,
-            "rank": 88
+            "rank": 93
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1200,
+            "elo": 1197,
             "win_rate": 50.2,
-            "rank": 53
+            "rank": 58
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1155,
+            "elo": 1152,
             "win_rate": 48.4,
-            "rank": 41
+            "rank": 47
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1164,
+            "elo": 1159,
             "win_rate": 44.7,
-            "rank": 71
+            "rank": 76
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1209,
+            "elo": 1206,
             "win_rate": 49.1,
-            "rank": 57
+            "rank": 63
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 24.4,
-          "coding_index": 52,
-          "agentic_index": 26.3
-        }
-      }
-    },
-    {
-      "id": "deepseek-reasoner",
-      "name": "DeepSeek R1",
-      "created": 1737381095,
-      "description": "Provided by OpenRouter: DeepSeek R1 is here: Performance on par with OpenAI o1, but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass. Fully open-source model & technical report. MIT licensed: Distill & commercialize freely!",
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": ["text"],
-        "output_modalities": ["text"],
-        "tokenizer": "DeepSeek",
-        "instruct_type": "deepseek-r1"
-      },
-      "top_provider": {
-        "context_length": 163840,
-        "max_completion_tokens": 16000,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.0000025",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0",
-        "internal_reasoning": "0"
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supports_max_tokens": false
-      },
-      "knowledge_cutoff": "2024-07-31",
-      "hugging_face_id": "deepseek-ai/DeepSeek-R1",
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 11.4,
-          "coding_index": 24.6,
-          "agentic_index": 1.1
+          "intelligence_index": null,
+          "coding_index": 56.2,
+          "agentic_index": 22.2
         }
       }
     },
@@ -474,8 +402,8 @@
       "default_parameters": {},
       "expiration_date": null,
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.00000089",
+        "prompt": "0.0000002574",
+        "completion": "0.0000010287",
         "input_cache_read": "0",
         "input_cache_write": "0",
         "input_cache_write_1h": "0",
@@ -495,51 +423,51 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1087,
+            "elo": 1084,
             "win_rate": 50.5,
-            "rank": 89
+            "rank": 92
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1110,
+            "elo": 1106,
             "win_rate": 48.4,
-            "rank": 99
+            "rank": 106
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1090,
+            "elo": 1089,
             "win_rate": 50,
-            "rank": 100
+            "rank": 104
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1057,
+            "elo": 1053,
             "win_rate": 43.7,
-            "rank": 105
+            "rank": 113
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 976,
+            "elo": 973,
             "win_rate": 38.8,
-            "rank": 87
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1092,
-            "win_rate": 52.7,
             "rank": 94
           },
           {
             "arena": "models",
+            "category": "uicomponent",
+            "elo": 1088,
+            "win_rate": 52.7,
+            "rank": 102
+          },
+          {
+            "arena": "models",
             "category": "website",
-            "elo": 1122,
+            "elo": 1118,
             "win_rate": 48.5,
-            "rank": 98
+            "rank": 105
           }
         ]
       }
