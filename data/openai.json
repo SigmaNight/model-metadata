@@ -51,6 +51,298 @@
       }
     },
     {
+      "id": "gpt-6.2-astra-pro",
+      "name": "GPT-6.2 Astra Pro",
+      "created": 1794938432,
+      "description": "Provided by OpenRouter: GPT-6.2 Astra Pro is the same underlying model as GPT-6.2 Astra, served with reasoning.mode set to pro for higher-quality responses on complex tasks. Cost note: pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Astra and takes much longer to complete.",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
+        "default_effort": "medium",
+        "default_enabled": true,
+        "supports_max_tokens": false
+      },
+      "pricing": {
+        "prompt": "0.000008",
+        "completion": "0.00004",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.00001",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000016",
+            "completion": "0.00006",
+            "input_cache_read": "0.0000008",
+            "input_cache_write": "0.00002"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "created": 1794938423,
+      "description": "Provided by OpenRouter: GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger visual reasoning for websites, slideshows and 3D designs. OpenAI reports new highs on its evals at less than a third of the cost per task of GPT-6 Astra.",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
+        "default_effort": "medium",
+        "default_enabled": true,
+        "supports_max_tokens": false
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 62.1,
+          "coding_index": null,
+          "agentic_index": null,
+          "finance_and_accounting_index": 60.9,
+          "strategy_and_ops_index": 63.3,
+          "legal_index": 58.7,
+          "healthcare_and_medical_index": 57,
+          "engineering_index": 66.6,
+          "economics_index": 61.1,
+          "cyber_index": 40.8,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
+        }
+      },
+      "pricing": {
+        "prompt": "0.000008",
+        "completion": "0.00004",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.00001",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000016",
+            "completion": "0.00006",
+            "input_cache_read": "0.0000008",
+            "input_cache_write": "0.00002"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-6.2-sol-pro",
+      "name": "GPT-6.2 Sol Pro",
+      "created": 1794938409,
+      "description": "Provided by OpenRouter: GPT-6.2 Sol Pro is the same underlying model as GPT-6.2 Sol, served with reasoning.mode set to pro for higher-quality responses on complex tasks. Cost note: pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Sol and takes much longer to complete.",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
+        "default_effort": "medium",
+        "default_enabled": true,
+        "supports_max_tokens": false
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000005"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "created": 1794938371,
+      "description": "Provided by OpenRouter: GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited for multistep agentic workflows and clear, natural writing across technical and non-technical tasks.",
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["file", "image", "text"],
+        "output_modalities": ["text"],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {},
+      "expiration_date": null,
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": ["max", "xhigh", "high", "medium", "low"],
+        "default_effort": "medium",
+        "default_enabled": true,
+        "supports_max_tokens": false
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 57.3,
+          "coding_index": null,
+          "agentic_index": null,
+          "finance_and_accounting_index": 57.2,
+          "strategy_and_ops_index": 59.4,
+          "legal_index": 55,
+          "healthcare_and_medical_index": 53.3,
+          "engineering_index": 61.2,
+          "economics_index": 57.4,
+          "cyber_index": 37.7,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
+        }
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025",
+        "input_cache_write_1h": "0",
+        "image": "0",
+        "image_output": "0",
+        "request": "0",
+        "audio": "0",
+        "audio_output": "0",
+        "input_audio_cache": "0",
+        "web_search": "0.01",
+        "internal_reasoning": "0",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000005"
+          }
+        ]
+      }
+    },
+    {
       "id": "gpt-6.1-terra-pro",
       "name": "GPT-6.1 Terra Pro",
       "created": 1793038556,
@@ -165,7 +457,17 @@
         "artificial_analysis": {
           "intelligence_index": 51.3,
           "coding_index": null,
-          "agentic_index": null
+          "agentic_index": null,
+          "finance_and_accounting_index": 49,
+          "strategy_and_ops_index": 50,
+          "legal_index": 46.4,
+          "healthcare_and_medical_index": 44.7,
+          "engineering_index": 54.7,
+          "economics_index": 48.5,
+          "cyber_index": null,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -308,99 +610,116 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1209,
-            "win_rate": 50.6,
-            "rank": 14
+            "elo": 1190,
+            "win_rate": 48.8,
+            "rank": 15
           },
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1296,
-            "win_rate": 63.7,
+            "elo": 1239,
+            "win_rate": 60.1,
             "rank": 2
           },
           {
             "arena": "agents",
             "category": "codetovideo",
-            "elo": 1205,
-            "win_rate": 55.6,
-            "rank": 11
+            "elo": 1191,
+            "win_rate": 54.5,
+            "rank": 15
           },
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1231,
-            "win_rate": 52.7,
-            "rank": 11
+            "elo": 1224,
+            "win_rate": 52.8,
+            "rank": 14
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1151,
-            "win_rate": 46.4,
-            "rank": 22
+            "elo": 1128,
+            "win_rate": 42.5,
+            "rank": 37
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1270,
-            "win_rate": 50.8,
-            "rank": 10
+            "elo": 1205,
+            "win_rate": 41.3,
+            "rank": 14
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1269,
-            "win_rate": 55.2,
-            "rank": 10
+            "elo": 1279,
+            "win_rate": 57.1,
+            "rank": 7
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1433,
-            "win_rate": 58.9,
-            "rank": 4
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1355,
-            "win_rate": 56.4,
-            "rank": 3
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1281,
-            "win_rate": 52.4,
-            "rank": 19
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1410,
-            "win_rate": 60.3,
-            "rank": 2
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1345,
+            "elo": 1414,
             "win_rate": 59.1,
             "rank": 6
           },
           {
             "arena": "models",
+            "category": "codecategories",
+            "elo": 1356,
+            "win_rate": 56.9,
+            "rank": 5
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1276,
+            "win_rate": 52.2,
+            "rank": 22
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1395,
+            "win_rate": 59.7,
+            "rank": 4
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1334,
+            "win_rate": 60.1,
+            "rank": 3
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1353,
+            "win_rate": 58.1,
+            "rank": 7
+          },
+          {
+            "arena": "models",
             "category": "website",
-            "elo": 1310,
-            "win_rate": 53.4,
-            "rank": 8
+            "elo": 1312,
+            "win_rate": 54.1,
+            "rank": 11
           }
         ],
         "artificial_analysis": {
           "intelligence_index": 54.6,
           "coding_index": null,
-          "agentic_index": null
+          "agentic_index": null,
+          "finance_and_accounting_index": 56.2,
+          "strategy_and_ops_index": 57.6,
+          "legal_index": 53.7,
+          "healthcare_and_medical_index": 52,
+          "engineering_index": 59.4,
+          "economics_index": 56.3,
+          "cyber_index": null,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -550,7 +869,17 @@
         "artificial_analysis": {
           "intelligence_index": 27.9,
           "coding_index": null,
-          "agentic_index": null
+          "agentic_index": null,
+          "finance_and_accounting_index": 33.9,
+          "strategy_and_ops_index": 43.2,
+          "legal_index": 32.2,
+          "healthcare_and_medical_index": 34.8,
+          "engineering_index": 33.3,
+          "economics_index": 34.5,
+          "cyber_index": 52.7,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": 75.7
         }
       },
       "pricing": {
@@ -700,7 +1029,17 @@
         "artificial_analysis": {
           "intelligence_index": 44.2,
           "coding_index": null,
-          "agentic_index": null
+          "agentic_index": null,
+          "finance_and_accounting_index": 47.5,
+          "strategy_and_ops_index": 52.1,
+          "legal_index": 46.3,
+          "healthcare_and_medical_index": 45.1,
+          "engineering_index": 48.9,
+          "economics_index": 47.7,
+          "cyber_index": 36.8,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -771,8 +1110,18 @@
         "design_arena": [],
         "artificial_analysis": {
           "intelligence_index": 56.9,
-          "coding_index": 76.9,
-          "agentic_index": 51
+          "coding_index": null,
+          "agentic_index": null,
+          "finance_and_accounting_index": 57.4,
+          "strategy_and_ops_index": 58,
+          "legal_index": 55.7,
+          "healthcare_and_medical_index": 53.7,
+          "engineering_index": 61.8,
+          "economics_index": 57.2,
+          "cyber_index": 33.4,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -987,8 +1336,18 @@
         "design_arena": [],
         "artificial_analysis": {
           "intelligence_index": 23.8,
-          "coding_index": 71.4,
-          "agentic_index": 42.1
+          "coding_index": null,
+          "agentic_index": null,
+          "finance_and_accounting_index": 31.8,
+          "strategy_and_ops_index": 40.7,
+          "legal_index": 27.7,
+          "healthcare_and_medical_index": 32.4,
+          "engineering_index": 29.4,
+          "economics_index": 32.8,
+          "cyber_index": null,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -1139,8 +1498,18 @@
         "design_arena": [],
         "artificial_analysis": {
           "intelligence_index": 32.3,
-          "coding_index": 76.7,
-          "agentic_index": 43.2
+          "coding_index": null,
+          "agentic_index": null,
+          "finance_and_accounting_index": 34.6,
+          "strategy_and_ops_index": 45.1,
+          "legal_index": 32,
+          "healthcare_and_medical_index": 37,
+          "engineering_index": 36.6,
+          "economics_index": 35.7,
+          "cyber_index": null,
+          "openness_index": null,
+          "multilingual_index": null,
+          "decision_index": null
         }
       },
       "pricing": {
@@ -1183,7 +1552,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1465,7 +1834,7 @@
             "category": "agenticgamedev",
             "elo": 1125,
             "win_rate": 52.2,
-            "rank": 16
+            "rank": 15
           },
           {
             "arena": "agents",
@@ -1498,37 +1867,37 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1163,
-            "win_rate": 50.9,
-            "rank": 25
+            "elo": 1152,
+            "win_rate": 50.8,
+            "rank": 27
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1074,
+            "elo": 1061,
             "win_rate": 43,
-            "rank": 33
+            "rank": 35
           },
           {
             "arena": "agents",
             "category": "godotgamedev",
-            "elo": 1173,
+            "elo": 1142,
             "win_rate": 52.3,
-            "rank": 18
+            "rank": 22
           },
           {
             "arena": "agents",
             "category": "htmlslides",
-            "elo": 963,
+            "elo": 969,
             "win_rate": 35.6,
             "rank": 24
           },
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1142,
+            "elo": 1130,
             "win_rate": 50.4,
-            "rank": 33
+            "rank": 38
           },
           {
             "arena": "agents",
@@ -1542,706 +1911,70 @@
             "category": "python-pptxslides",
             "elo": 1152,
             "win_rate": 43.3,
-            "rank": 19
+            "rank": 20
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1103,
+            "elo": 1091,
             "win_rate": 42.6,
-            "rank": 38
+            "rank": 39
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1189,
-            "win_rate": 49.1,
-            "rank": 55
+            "elo": 1162,
+            "win_rate": 48.7,
+            "rank": 64
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1249,
-            "win_rate": 57.6,
-            "rank": 19
+            "elo": 1234,
+            "win_rate": 57.1,
+            "rank": 22
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1255,
-            "win_rate": 52.7,
-            "rank": 40
+            "elo": 1243,
+            "win_rate": 52.8,
+            "rank": 46
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1260,
-            "win_rate": 55.3,
-            "rank": 31
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1287,
-            "win_rate": 56,
-            "rank": 21
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1232,
-            "win_rate": 54.9,
-            "rank": 19
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1255,
-            "win_rate": 53.3,
-            "rank": 41
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1253,
-            "win_rate": 52,
-            "rank": 42
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 74.9,
-          "agentic_index": 36.4
-        }
-      }
-    },
-    {
-      "id": "gpt-5.4-image-2",
-      "name": "GPT-5.4 Image 2",
-      "created": 1776797528,
-      "description": "Provided by OpenRouter: GPT-5.4 Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2. It enables rich multimodal workflows, allowing users to seamlessly move between reasoning, coding, and visual generation within the same interaction.",
-      "architecture": {
-        "modality": "text+image+file->text+image",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["image", "text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 272000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "top_logprobs",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
-        "default_effort": "medium",
-        "default_enabled": false,
-        "supports_max_tokens": false
-      },
-      "pricing": {
-        "prompt": "0.000008",
-        "completion": "0.000015",
-        "input_cache_read": "0.000002",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0.00003",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      }
-    },
-    {
-      "id": "gpt-5.4-mini",
-      "name": "GPT-5.4 Mini",
-      "created": 1773748178,
-      "description": "Provided by OpenRouter: GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding, and tool use, while reducing latency and cost for large-scale deployments.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["file", "image", "text"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_completion_tokens",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.0000045",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      },
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
-        "default_effort": "medium",
-        "default_enabled": false,
-        "supports_max_tokens": false
-      },
-      "knowledge_cutoff": "2025-08-31",
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 56.1,
-          "agentic_index": 17.9
-        }
-      }
-    },
-    {
-      "id": "gpt-5.4-pro",
-      "name": "GPT-5.4 Pro",
-      "created": 1772734366,
-      "description": "Provided by OpenRouter: GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs. Optimized for step-by-step reasoning, instruction following, and accuracy, GPT-5.4 Pro excels at agentic coding, long-context workflows, and multi-step problem solving.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_completion_tokens",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00003",
-        "completion": "0.00018",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0",
-        "overrides": [
-          {
-            "min_prompt_tokens": 272000,
-            "prompt": "0.00006",
-            "completion": "0.00027"
-          }
-        ]
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supported_efforts": ["xhigh", "high", "medium"],
-        "default_effort": "medium",
-        "supports_max_tokens": false
-      }
-    },
-    {
-      "id": "gpt-5.4",
-      "name": "GPT-5.4",
-      "created": 1772734352,
-      "description": "Provided by OpenRouter: GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["text", "image", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_completion_tokens",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0",
-        "overrides": [
-          {
-            "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005"
-          }
-        ]
-      },
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
-        "default_effort": "medium",
-        "default_enabled": false,
-        "supports_max_tokens": false
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1093,
-            "win_rate": 42.3,
-            "rank": 94
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1196,
+            "elo": 1257,
             "win_rate": 55.4,
-            "rank": 28
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1208,
-            "win_rate": 52.5,
-            "rank": 60
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1233,
-            "win_rate": 56.6,
-            "rank": 43
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1235,
-            "win_rate": 57.6,
-            "rank": 42
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1191,
-            "win_rate": 57.8,
             "rank": 34
           },
           {
             "arena": "models",
+            "category": "gamedev",
+            "elo": 1271,
+            "win_rate": 56,
+            "rank": 25
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1220,
+            "win_rate": 54.6,
+            "rank": 23
+          },
+          {
+            "arena": "models",
             "category": "uicomponent",
-            "elo": 1234,
-            "win_rate": 57.4,
+            "elo": 1245,
+            "win_rate": 53.2,
             "rank": 47
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1217,
-            "win_rate": 52.5,
-            "rank": 62
-          },
-          {
-            "arena": "agents",
-            "category": "androidnative",
-            "elo": 1031,
-            "win_rate": 47.7,
-            "rank": 42
-          },
-          {
-            "arena": "agents",
-            "category": "fullstack",
-            "elo": 1003,
-            "win_rate": 40.9,
-            "rank": 41
-          },
-          {
-            "arena": "agents",
-            "category": "godotgamedev",
-            "elo": 1135,
-            "win_rate": 46.9,
-            "rank": 25
-          },
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1085,
-            "win_rate": 46.1,
-            "rank": 46
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1045,
-            "win_rate": 40.3,
-            "rank": 43
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 71.1,
-          "agentic_index": null
-        }
-      }
-    },
-    {
-      "id": "gpt-5.2-chat",
-      "name": "GPT-5.2 Chat",
-      "created": 1765389783,
-      "description": "Provided by OpenRouter: GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on harder queries, improving accuracy on math, coding, and multi-step tasks without slowing down typical conversations. The model is warmer and more conversational by default, with better instruction following and more stable short-form reasoning. GPT-5.2 Chat is designed for high-throughput, interactive workloads where responsiveness and consistency matter more than deep deliberation.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["file", "image", "text"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": false
-      },
-      "supported_parameters": [
-        "max_completion_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": "2026-08-10",
-      "pricing": {
-        "prompt": "0.00000175",
-        "completion": "0.000014",
-        "input_cache_read": "0.000000175",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      }
-    },
-    {
-      "id": "gpt-5.2-pro",
-      "name": "GPT-5.2 Pro",
-      "created": 1765389780,
-      "description": "Provided by OpenRouter: GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["image", "text", "file"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.000021",
-        "completion": "0.000168",
-        "input_cache_read": "0",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supported_efforts": ["xhigh", "high", "medium"],
-        "default_effort": "medium",
-        "supports_max_tokens": false
-      }
-    },
-    {
-      "id": "gpt-5.2",
-      "name": "GPT-5.2",
-      "created": 1765389775,
-      "description": "Provided by OpenRouter: GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly to simple queries while spending more depth on complex tasks.",
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": ["file", "image", "text"],
-        "output_modalities": ["text"],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "top_provider": {
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_completion_tokens",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools",
-        "verbosity"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "expiration_date": null,
-      "pricing": {
-        "prompt": "0.00000175",
-        "completion": "0.000014",
-        "input_cache_read": "0.000000175",
-        "input_cache_write": "0",
-        "input_cache_write_1h": "0",
-        "image": "0",
-        "image_output": "0",
-        "request": "0",
-        "audio": "0",
-        "audio_output": "0",
-        "input_audio_cache": "0",
-        "web_search": "0.01",
-        "internal_reasoning": "0"
-      },
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": ["xhigh", "high", "medium", "low", "none"],
-        "default_effort": "medium",
-        "supports_max_tokens": false
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1191,
-            "win_rate": 54.4,
-            "rank": 70
-          },
-          {
-            "arena": "agents",
-            "category": "androidnative",
-            "elo": 1055,
-            "win_rate": 49.1,
-            "rank": 38
-          },
-          {
-            "arena": "agents",
-            "category": "fullstack",
-            "elo": 1027,
-            "win_rate": 44.3,
-            "rank": 39
-          },
-          {
-            "arena": "agents",
-            "category": "godotgamedev",
-            "elo": 1142,
-            "win_rate": 48.1,
-            "rank": 23
-          },
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1093,
-            "win_rate": 46.8,
-            "rank": 42
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1072,
-            "win_rate": 45.5,
-            "rank": 41
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1070,
-            "win_rate": 41.5,
-            "rank": 103
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1166,
-            "win_rate": 49.6,
-            "rank": 78
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1202,
-            "win_rate": 56.1,
-            "rank": 59
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1191,
-            "win_rate": 56,
-            "rank": 61
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1185,
-            "win_rate": 51.3,
-            "rank": 68
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1149,
-            "win_rate": 50.7,
-            "rank": 44
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1135,
-            "win_rate": 53.7,
-            "rank": 58
+            "elo": 1243,
+            "win_rate": 52.2,
+            "rank": 48
           }
         ]
       }
